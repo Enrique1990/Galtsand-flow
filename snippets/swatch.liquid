@@ -1,0 +1,168 @@
+{% comment %}
+  Renders text/color swatches for a product option.
+  Set the extension of your color files below. Use 'png', 'jpeg', 'jpg' or 'gif'.
+
+  Accepts:
+    - swatch_option: The product option to render as a swatch.
+    - option_index: The index of the option.
+    - product: The product object.
+    - swatch_section_id: The section id. (required)
+    - size_option_name: The name of the size option.
+    - size_guide_page: The size guide page object.
+    - hide_out_of_stock_variants: Boolean to hide out of stock variants.
+
+  Usage:
+    {% render 'swatch' with swatch_option: option, option_index: option_idx, product: product, size_option_name: size_option_name, size_guide_page: size_guide_page, hide_out_of_stock_variants: hide_out_of_stock_variants %}
+{% endcomment %}
+
+<safe-load-scripts class="hidden">
+  <script src="{{ 'component-product-swatch.js' | asset_url }}" defer="defer" type="module" data-flow-load-key="product-swatch"></script>
+</safe-load-scripts>
+<style>
+  .hanger-container{
+    display: flex;
+  }
+  .hanger-pos{
+        margin-top: 8px;
+    margin-left: 6px;
+  }
+</style>
+{% liquid 
+  assign file_extension = 'png' 
+  assign color_langs = 'color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ','
+  assign is_color = false
+  assign downcased_option = swatch_option.name | downcase
+  if color_langs contains downcased_option
+    assign is_color = true
+  endif
+%}
+
+{% if swatch_option == blank %}
+  <div class="swatch error">
+    <p>You must include the snippet swatch.liquid with the product option.</p>
+    <p>Use: <code>{% raw %}{% render 'swatch' with swatch_option: 'product option here' %}{% endraw %}</code></p>
+    <p>Example: <code>{% raw %}{% render 'swatch' with swatch_option: option %}{% endraw %}</code></p>
+  </div>
+{% else %}
+
+  {% if product.options_with_values.size > 0 %}
+    <product-swatch 
+      data-swatch-sold-out-string="{{ 'products.product.sold_out' | t }}"  
+      class="swatch{% if is_color %} is-color-swatch{% endif %}" 
+      data-option-index="{{ option_index }}"
+      data-section-id="{{ swatch_section_id }}"
+    >
+      {% comment %} ============ OPTION LABEL ============ {% endcomment %}
+      {% if product.options_with_values.size > 0 or is_color == true %}
+        <div class="option-label-wrapper{% if is_color %} is-color-label{% endif %}">
+          <div class="header label-font">{{ swatch_option.name }}</div>
+          {% if is_color %}
+            <div class="header product-swatch-color-name">
+              <span data-color-swatch-name>{{ swatch_option.selected_value | truncate: 22 }}</span>
+              <span data-color-swatch-state></span>
+            </div>
+          {% endif %}
+          {%- if swatch_option.name == size_option_name and size_guide_page != blank -%}
+            <safe-load-scripts class="hidden">
+              <script src="{{ 'component-size-guide-link.js' | asset_url }}" defer="defer" type="module" data-flow-load-key="size-guide-link"></script>
+            </safe-load-scripts>
+    <div class="hanger-container">
+    <img class="hanger" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/pngtree-hanger-png-image_6083036.png?v=1721149539" alt="hanger" height="40" width="40" />
+            <size-guide-link id="size-guide" class="hanger-pos text-link-animated">
+               
+              <a data-size-guide-link id="size-guide-link" tabindex="0" href="{{ size_guide_page.url }}">
+                {{ size_guide_page.title }}</a>
+            </size-guide-link>
+    </div>
+          {%- endif -%}
+        </div>
+      {% endif %}
+
+      {% comment %} ============ OPTION VARIANTS (SWATCHES) ============ {% endcomment %}
+      <div class="swatch-items-wrapper">
+        {% for value in swatch_option.values %}
+          {% liquid
+            if hide_out_of_stock_variants
+              assign show_variant = false
+
+              for variant in product.variants
+                for v in product.variants
+                  if v.id != value.variant.id and v.options[option_index] == value and v.available
+                    assign show_variant = true
+                  elsif value.variant.options.size > 0 and v.options[option_index] == value and v.available
+                    assign show_variant = true
+                  endif
+                endfor
+              endfor
+            else 
+              assign show_variant = true
+            endif
+
+            assign is_combined_listing = false
+            if value.product_url != blank
+              assign is_combined_listing = true
+              assign show_variant = true
+              assign item_fetch_url = value.product_url | append: '?variant=' | append: value.variant.id
+              assign product_url = value.product_url
+            else
+              assign item_fetch_url = value.variant.url
+              assign product_url = value.variant.product.url
+            endif
+          %}
+
+          {%- capture input_id -%}
+            {{ swatch_section_id }}-{{ option_index }}-{{ forloop.index0 -}}
+          {%- endcapture -%}
+
+          {% if show_variant %}
+            <div 
+              data-swatch-option-available="{{ value.available }}"
+              data-swatch-variant-id="{{ value.variant.id }}"
+              data-selected-swatch-variant-id="{{ swatch_option.selected_value.variant.id }}"
+              data-option="{{ swatch_option.name }}"
+              data-value="{{ value | escape | truncate: 22 }}" 
+              data-media-id="{{ value.variant.featured_media.id }}" 
+              class="swatch-element variant-swatch {% if is_color %}color {% endif %}{{ value | handle }} {% if value.available %}available{% else %}soldout{% endif %}{% if swatch_option.selected_value == value %} active{% endif %}"
+            >
+
+              <input
+                data-product-variant
+                data-is-combined-listing="{{ is_combined_listing }}"
+                data-product-fetch-url="{{ item_fetch_url }}"
+                data-product-url="{{ product_url }}"
+                id="{{ input_id }}"
+                class="visually-hidden"
+                type="radio"
+                name="option-{{ option_index | plus: 1 }}-{{ swatch_section_id }}"
+                value="{{ value | escape }}"
+                {% if swatch_option.selected_value == value %} checked{% endif %}
+              />
+
+              {% if is_color %}
+                {% assign bg_img_url = value | handle | append: '.' | append: file_extension | asset_url %}
+                {% assign bg_color = value %}
+
+                <label
+                  for="{{ input_id }}" style="background-color: {{ bg_color }};{% if bg_img_url contains 'v=' %} background-image: url({{ bg_img_url }});{% endif %}"
+                >
+                  <span class="product-swatch-sold-out product-swatch-sold-out-background"></span>
+                  <span class="product-swatch-sold-out product-swatch-sold-out-foreground"></span>
+                </label>
+              {% else %}
+                <label for="{{ input_id }}">
+                  {{ value }}
+                </label>
+              {% endif %}
+            </div>
+          {% endif %}
+          {% comment %} ============ VARIANT JSON ============ {% endcomment %}
+          {% if product.options_with_values.size > 0 %}
+            <script type="application/json" data-resource="{{ input_id }}">
+              {{ value.variant | json }}
+            </script>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </product-swatch>
+  {% endif %}
+{% endif %}

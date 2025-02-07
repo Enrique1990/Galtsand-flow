@@ -1,0 +1,88 @@
+<!-- Button Grid Section -->
+<section class="button-grid-section">
+  <div class="container">
+    <div class="button-grid">
+      {% for block in section.blocks %}
+        <a href="{{ block.settings.button_link }}" class="button-grid-item">{{ block.settings.button_label }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Styles -->
+<style>
+   *{
+    font-family: basic commercial soft rounded;
+  }
+.button-grid-section {
+  padding: 50px 200px;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);;
+  gap: 20px;
+}
+
+.button-grid-item {
+  font-size: large;
+  display: inline-block;
+  text-align: center;
+  padding: 35px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-grid-item:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-5px);
+}
+  /* Responsive: 1 button per row on screens smaller than 768px */
+@media (max-width: 768px) {
+  .button-grid {
+    grid-template-columns: 1fr; /* 1 button per row on mobile */
+  }
+  .button-grid-section {
+  padding: 50px 50px;
+}
+}
+</style>
+
+<!-- Schema for Dynamic Buttons -->
+{% schema %}
+{
+  "name": "Button Grid Section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "button",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button Label",
+          "default": "New Button"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link",
+          "default": "/"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Button Grid",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}

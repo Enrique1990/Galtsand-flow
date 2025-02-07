@@ -1,0 +1,119 @@
+<style>
+  @media only screen and (min-width: 1150px) {
+      .js-wishlistBlock {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          column-gap: 3%;
+          padding-left: 40px;
+          padding-right: 14px;
+        margin-bottom: 50px;
+      }
+  }
+
+  @media only screen and (max-width: 1149px) and (min-width: 750px) {
+      .js-wishlistBlock {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          column-gap: 3%;
+          padding-left: 40px;
+          padding-right: 14px;
+        margin-bottom: 50px;
+      }
+  }
+
+  @media only screen and (max-width: 749px) {
+      .js-wishlistBlock {
+          display: block;
+          padding-left: 18px;
+          padding-right: 18px;
+      }
+      .c-product img {
+          max-height: 483px !important;
+      }
+  }
+
+  .c-product {
+      cursor: pointer;
+      margin-bottom: 20px;
+      text-align: center;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+    border: 1px solid transparent;
+  }
+  .c-product:hover{
+    border-radius: 10px;
+    border: 1px solid rgba(50, 49, 49, 0.25);
+     transition: border-color 0s;
+  }
+
+  .c-product img {
+      max-height: 62vh;
+        height: 100%; /* Adjust height as needed */
+    width: 100%; /* Ensure image takes full width */
+    object-fit: cover; 
+      transition: all .5s ease;
+        border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+  }
+
+  .c-product img:hover {
+      /* transform: scale(1.03); */
+          border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .c-product h3.c-product__title {
+      margin-top: 10px;
+      position: relative;
+  }
+
+  .recently-title {
+      text-align: center;
+      background-color: #2e3b46;
+      color: white;
+      padding-top: 1px;
+      margin-bottom: 49px;
+      padding-bottom: 1px;
+  }
+  .btn-wishlist {
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: black;
+  transition: all 0.3s ease-in-out;
+  padding: 5px 10px 5px 10px;
+}
+
+.btn-wishlist:before {
+  /* content: ""; */
+  background: black;
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-wishlist:hover {
+  /* background-position: 0; */
+  background-color: black;
+  color: white;
+  /* transition: all 0.3s ease-in-out; */
+}
+
+.btn-wishlist:hover::before {
+  width: 100%;
+}
+</style>
+
+<div class="js-wishlistBlock">
+  <!-- Wishlist items will be displayed here -->
+</div>
+

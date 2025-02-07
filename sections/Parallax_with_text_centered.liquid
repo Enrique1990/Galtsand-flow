@@ -1,0 +1,253 @@
+{% schema %}
+{
+  "name": "Sticky Parallax Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading_1",
+      "label": "Section Heading",
+      "default": "What Is A Lorem"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "First Image"
+    },
+    {
+      "type": "textarea",
+      "id": "content_1",
+      "label": "First Content",
+      "default": "Enter content for the first section"
+    },
+       {
+      "type": "text",
+      "id": "section_heading_2",
+      "label": "Section Heading",
+      "default": "What Is A Lorem"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Second Image"
+    },
+    {
+      "type": "textarea",
+      "id": "content_2",
+      "label": "Second Content",
+      "default": "Enter content for the second section"
+    },
+       {
+      "type": "text",
+      "id": "section_heading_3",
+      "label": "Section Heading",
+      "default": "What Is A Lorem"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_3",
+      "label": "Third Image"
+    },
+    {
+      "type": "textarea",
+      "id": "content_3",
+      "label": "Third Content",
+      "default": "Enter content for the third section"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Sticky Parallax",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+
+<main class="main">
+  <section class="section">
+    <figure class="image-container"><img src={{ section.settings.image_1 | image_url }} alt="model2"/></figure>
+    <article class="content">
+      <h2 class="section-title">{{ section.settings.section_heading_1 }}</h2>
+      <p>{{ section.settings.content_1 }}</p>
+      
+    </article>
+  </section>
+  <section class="section">
+    <figure class="image-container"><img src={{ section.settings.image_2 | image_url }} alt="model"/></figure>
+    <article class="content">
+      <h2 class="section-title">{{ section.settings.section_heading_2 }}</h2>
+      <p>{{ section.settings.content_2 }}</p>
+    </article>
+  </section>
+  <section class="section">
+    <figure class="image-container"><img src={{ section.settings.image_3 | image_url }} alt="model1"/></figure>
+    <article class="content">
+      <h2 class="section-title">{{ section.settings.section_heading_3 }}</h2>
+      <p>{{ section.settings.content_3 }}</p>
+    </article>
+  </section>
+</main>
+
+
+<style>
+
+
+:root {
+  --scale: 0.1;
+  --space: 8vmin;
+  /* --font-primary: "Lato", sans-serif;
+  --font-heading: "Playfair Display", serif; */
+}
+
+@media (prefers-reduced-motion) {
+  :root {
+    --scale: 0;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+.main{
+    background-color: #494949;
+}
+body {
+  color: hsl(0, 0%, 95%);
+
+
+  
+  line-height: 1.6;
+}
+
+a {
+  color: hsl(65, 80%, 60%);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.page-title::after {
+  content: "↓";
+  display: block;
+  font-size: 2em;
+  opacity: 0;
+  transform: translateY(-24px);
+  animation: fadein 800ms 500ms cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.header,
+.footer {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.section {
+  transform-origin: center top;
+  transform: scaleY(calc(1 - var(--scale)));
+}
+
+.section > * {
+  transform-origin: center top;
+  transform: scaleY(calc(1 / (1 - var(--scale))));
+}
+
+.section-title {
+  font-family: Basic Commercial Soft Rounded;
+  font-size: clamp(2.5rem, 2.5vw, 4.5rem);
+  font-weight: bold;
+  line-height: 1.125;
+}
+
+.byline {
+  display: block;
+  font-size: 0.6em;
+  margin: calc(var(--space) / 1.35) 0;
+}
+
+.content {
+  font-family: Basic Commercial Soft Rounded;
+  border-radius: 10px;
+  position: relative;
+  margin: -50vh auto 0;
+  padding: var(--space);
+  max-width: 55ch;
+  width: calc(100% - var(--space));
+  background: #494949;
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
+}
+
+.content > * + * {
+  margin-top: 2rem;
+}
+.content p {
+  white-space: pre-line;
+}
+.image-container {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  z-index: -2;
+  margin: auto;
+  width: 100%;
+}
+
+.image-container img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.image-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(
+  to bottom,
+  hsla(0, 0%, 28%, 0) 0%,
+  hsla(0, 0%, 28%, 0.013) 8.1%,
+  hsla(0, 0%, 28%, 0.049) 15.5%,
+  hsla(0, 0%, 28%, 0.104) 22.5%,
+  hsla(0, 0%, 28%, 0.175) 29%,
+  hsla(0, 0%, 28%, 0.259) 35.3%,
+  hsla(0, 0%, 28%, 0.352) 41.2%,
+  hsla(0, 0%, 28%, 0.45) 47.1%,
+  hsla(0, 0%, 28%, 0.55) 52.9%,
+  hsla(0, 0%, 28%, 0.648) 58.8%,
+  hsla(0, 0%, 28%, 0.741) 64.7%,
+  hsla(0, 0%, 28%, 0.825) 71%,
+  hsla(0, 0%, 28%, 0.896) 77.5%,
+  hsla(0, 0%, 28%, 0.951) 84.5%,
+  hsla(0, 0%, 28%, 0.987) 91.9%,
+  hsl(0, 0%, 28%) 100%
+);
+}
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media screen and (max-width: 768px) {
+  .content p{
+    font-size: 1rem;
+  }
+}
+</style>

@@ -1,0 +1,25 @@
+{% if label != blank %}
+  {% liquid
+      case button_style
+          when 'outlined'
+              assign button_classes = 'btn btn--secondary'
+          when 'underlined'
+              assign button_classes = 'btn--underlined'
+          else
+              assign button_classes = 'btn'
+      endcase
+  %}
+  <div class="homepage-section-btn-container{% if button_style == 'underlined' %} text-link-animated{% endif %}">
+      <a
+          class="{{ button_classes }} {% if label == 'Join Now' %}klaviyo_form_trigger{% endif %}"
+          href="{% if label == 'Join Now' %}#{% else %}{{ link }}{% endif %}"
+          data-section-main-link
+          {% if label == blank %}
+              aria-hidden="true"
+          {% endif %}
+          {% if custom_attributes %}{{ custom_attributes }}{% endif %}
+      >
+      {{ label }}
+      </a>
+  </div>
+{% endif %}

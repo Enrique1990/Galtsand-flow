@@ -1,0 +1,412 @@
+{% schema %}
+{
+  "name": "Men Four Column Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image_column2",
+      "label": "Background Image for Column 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "linkable_background_image_column4",
+      "label": "Linkable Background Image for Column 4"
+    },
+    {
+      "type": "text",
+      "id": "column1_title",
+      "label": "Column 1 Title",
+      "default": "High Waist Leggings"
+    },
+    {
+      "type": "textarea",
+      "id": "column1_paragraph",
+      "label": "Column 1 Paragraph",
+      "default": "Embrace timeless elegance with our high waist bikinis, designed to accentuate your curves and elevate your beach style. Crafted from premium, recycled materials, our bikinis offer a flattering fit and comfortable support for all-day at the beach or by the pool. With the high waist bikini design, they provide extra coverage and a secure, confident feel. Whether lounging by the pool or strolling along the shore, our high waist bikinis ensure you that you always look and feel your best! Shop now for effortless elegance and the perfect beach vibes!"
+    },
+    {
+      "type": "text",
+      "id": "column1_ideal_for_title",
+      "label": "Column 1 Ideal For Title",
+      "default": "Ideal for"
+    },
+    {
+      "type": "text",
+      "id": "column1_ideal_for_text",
+      "label": "Column 1 Ideal For Text",
+      "default": "Beach outings, Lounging poolside"
+    },
+    {
+      "type": "text",
+      "id": "column1_product_features_title",
+      "label": "Column 1 Product Features Title",
+      "default": "Product Features"
+    },
+    {
+      "type": "text",
+      "id": "column1_product_features_text",
+      "label": "Column 1 Product Features Text",
+      "default": "Premium, recycled materials, flattering high-waisted design, comfortable support, more sustainable choice"
+    },
+    {
+      "type": "text",
+      "id": "column1_shop_link_text",
+      "label": "Column 1 Shop Link Text",
+      "default": "SHOP HIGH WAIST BIKINI →"
+    },
+    {
+      "type": "url",
+      "id": "column1_shop_link_url",
+      "label": "Column 1 Shop Link URL",
+      "default": "/collections"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "column1",
+      "name": "Column 1"
+    },
+    {
+      "type": "column2",
+      "name": "Column 2"
+    },
+    {
+      "type": "column3",
+      "name": "Column 3",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "fit_image",
+          "label": "Fit Image"
+        }
+      ]
+    },
+    {
+      "type": "column4",
+      "name": "Column 4"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Mens Four Columns",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+
+{% stylesheet %}
+  .four-column-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    max-height: 100%;
+    min-height: 671px;
+  }
+   .column {
+    padding: 50px;
+  }
+  .column1 {
+    flex: 1.5; /* Make column 1 twice as wide */
+  }
+  .column2, .column4 {
+    flex: 1; /* Standard size for columns 2 and 4 */
+  }
+  .column3 {
+    flex: 0.7; /* Make column 3 half the size */
+    font-weight: bold;
+  }
+  .column1 h1 {
+    margin-bottom: 10px;
+  }
+  .column1 p, .column1 h3 {
+    margin-bottom: 24px;
+  }
+  .column3 h3 {
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .fit-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1px 10px 1px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 0.2px;
+  }
+  .fit-container .line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  .background-image {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+  .line_point {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .line span{
+    padding-bottom: 1px;
+  }
+  .color_name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+    text-align: center
+  }
+  .color_name span{
+    width: fit-content;
+  }
+  .colors{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .colors .color_name{
+    flex: 1 1 calc(50% - 20px); 
+    box-sizing: border-box;
+    margin-bottom: 6px
+  }
+  .colors_container2 {
+    margin-top: 50%;
+  }
+  @media (max-width: 992px) {
+  .four-column-section {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+   
+  .column3, .column2, .column4, .column1 {
+    flex: 1;
+  }
+     .fit-container {
+      display: none;
+    }
+    .background-image{
+      height: 200px;
+      aspect-ratio: auto;
+    }
+     .column4 {
+    order: 1; /* First row */
+  }
+
+  .column1 {
+    order: 2; /* Second row */
+  }
+
+  .column3 {
+    order: 3; /* Third row */
+  }
+    .colors_container2 {
+    margin-top: 0%;
+}
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .four-column-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+    .colors {
+    flex-wrap: nowrap;
+  }
+  .column2{
+    display: none;
+  }
+.hide{
+  display: none
+}
+  .column1 {
+    flex: 1 1 50%;
+  }
+
+  .column3, .column4 {
+    flex: 1 1 50%;
+  }
+
+  .column {
+    padding: 20px;
+  }
+   .fit-container {
+      display: none;
+    }
+   .background-image{
+      min-height: 434px;
+     aspect-ratio: auto;
+    }
+   .column4 {
+    order: 1; /* First row */
+  }
+
+  .column1 {
+    order: 2; /* Second row */
+  }
+
+  .column3 {
+    order: 3; /* Third row */
+  }
+  .colors_container2 {
+    margin-top: 0%;
+}
+}
+  
+
+@media (max-width: 576px) {
+  .four-column-section {
+    display: flex;
+    flex-direction: column;
+  }
+.hide{
+  display: none;
+}
+  .column {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .column2{
+    display: none
+  }
+.colors_container2 {
+    margin-top: 0%;
+}
+  .column1, .column3, .column4 {
+    flex: 1 1 100%;
+  }
+   .fit-container {
+      display: none;
+    }
+   .background-image{
+      min-height: 200px;
+     aspect-ratio: auto;
+    }
+
+}
+{% endstylesheet %}
+
+<div class="four-column-section">
+  <div class="column column1">
+    <h1>{{ section.settings.column1_title }}</h1>
+    <p>{{ section.settings.column1_paragraph }}</p>
+    <!-- <h3>{{ section.settings.column1_ideal_for_title }}</h3>
+    <p>{{ section.settings.column1_ideal_for_text }}</p> -->
+    <h1>{{ section.settings.column1_product_features_title }}</h1>
+     <ul>
+      {% assign features = section.settings.column1_product_features_text | split: '|' %}
+      {% for feature in features %}
+        <li>{{ feature | strip }}</li>
+      {% endfor %}
+    </ul>
+    <br>
+    <h3><a href="{{ section.settings.column1_shop_link_url }}">{{ section.settings.column1_shop_link_text }}</a></h3>
+  </div>
+  <div class="column column2 background-image" style="background-image: url('{{ section.settings.background_image_column2 | image_url }}');">
+  </div>
+  <div class="column column3">
+    <!-- <h3 class="hide">FIT</h3>
+    <div class="fit-container">
+      <div>support</div>
+      <div class="line">
+        <span>low</span>
+         <img class="line_point" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Group_324534971_126a1456-ac66-446d-a040-f7cc88799ba2.png?v=1721309898" alt="line" width="150" height="19" />
+        <span>high</span>
+      </div>
+    </div>
+    <div class="fit-container">
+      <div>waist</div>
+      <div class="line">
+        <span>low</span>
+        <img class="line_point" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Group_324534971_126a1456-ac66-446d-a040-f7cc88799ba2.png?v=1721309898" alt="line" width="150" height="19" />
+        <span>high</span>
+      </div>
+    </div>
+    <div class="fit-container">
+      <div>coverage</div>
+      <div class="line">
+        <span>low</span>
+        <img class="line_point" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Group_324534971_126a1456-ac66-446d-a040-f7cc88799ba2.png?v=1721309898" alt="line" width="150" height="19" />
+        <span>high</span>
+      </div>
+    </div> -->
+    {% if block.settings.fit_image %}
+      <img src="{{ block.settings.fit_image | image_url }}" alt="Fit Image">
+    {% endif %}
+    <div class="colors_container2">
+       <h3 style="font-size: 1.5rem; margin-bottom: 30px;">Core Colors</h3>
+    <div class="colors">
+      
+      <div class="color_name">
+        <img class="img-color" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Ellipse_19Dark_khaki.png?v=1721668867" alt="pitch balck" width="30" height="30"/>
+      <span>Dark Khaki</span>
+      </div>
+      <div class="color_name">
+        
+      <img class="img-color" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Ellipse_17Silver_melange.png?v=1721668867" alt="pitch balck" width="30" height="30"/>
+        <span>Silver Melange</span>
+      </div>
+      <div class="color_name">
+      <img class="img-color" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Ellipse_20darkest_navy.png?v=1721668867" alt="pitch balck" width="30" height="30"/>
+        <span>Darkest Navy</span>
+      </div>
+      <div class="color_name">
+        <img class="img-color" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Ellipse_21coffee.png?v=1721668867" alt="smokey Blue" width="30" height="30"/>
+        <span>Coffee</span>
+      </div>
+      <div class="color_name">
+        <img class="img-color" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Ellipse_23grindle.png?v=1721668867" alt="plum" width="30" height="30"/>
+        <span>Grindle</span>
+      </div>
+      <div class="color_name">
+        <img class="img-color" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Ellipse_24faded_army.png?v=1721668867" alt="Lime" width="30" height="30"/>
+        <span>Faded Army</span>
+      </div>
+      <div class="color_name">
+        <img class="img-color" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Ellipse_32white.png?v=1721762714" alt="Lime" width="30" height="30"/>
+        <span>Optic White</span>
+      </div>
+      <div class="color_name">
+        <img class="img-color" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Ellipse_18Dune.png?v=1721668867" alt="Lime" width="30" height="30"/>
+        <span>Dune</span>
+      </div>
+      <!-- <div class="color_name">
+        <img class="img-color" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Ellipse_10Sage.png?v=1721313355" alt="Lime" width="30" height="30"/>
+        <span>Sage</span>
+      </div>
+      <div class="color_name">
+        <img class="img-color" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Ellipse_13Taupe.png?v=1721313355" alt="Lime" width="30" height="30"/>
+        <span>Taupe</span>
+      </div>
+      <div class="color_name">
+        <img class="img-color" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Ellipse_11Cream.png?v=1721313355" alt="Lime" width="30" height="30"/>
+        <span>Cream</span>
+      </div>
+      <div class="color_name">
+        <img class="img-color" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Ellipse_8Tan.png?v=1721313355" alt="Lime" width="30" height="30"/>
+        <span>Tan</span>
+      </div>
+      <div class="color_name">
+        <img class="img-color" src="https://cdn.shopify.com/s/files/1/0642/2210/1717/files/Ellipse_15Lantana.png?v=1721313355" alt="Lime" width="30" height="30"/>
+        <span>Lantana</span>
+      </div> -->
+    </div>
+   
+    </div>
+  </div>
+  <div class="column column4 background-image" style="background-image: url('{{ section.settings.linkable_background_image_column4 | image_url }}');">
+  </div>
+</div>
+

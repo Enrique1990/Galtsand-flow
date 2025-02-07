@@ -1,0 +1,135 @@
+<style>
+.modal.outofstock {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+#myBtn-outofstock {
+  display: block;
+  border: 1.5px solid #4f4f4f;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #4d4a42;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+.outofstock .modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+#popup-submit-btn {
+  width: fit-content !important;
+  margin-top: 20px;
+}
+.outofstock .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.outofstock .close:hover,
+.outofstock .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-header {
+  text-align: center;
+}
+#product_name_with_variant {
+  text-align: center;
+}
+.success-message {
+  text-align: center;
+}
+@media only screen and (min-width: 800px) {
+  .outofstock {
+    top: 10% !important;
+  }
+  .outofstock .modal-content {
+    width: 35%;
+  }
+}
+</style>
+<!-- Trigger/Open The Modal -->
+<button class="button button--large" id="myBtn-outofstock">Out of stock</button>
+<!-- The Modal -->
+<div id="myModal" class="modal outofstock">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3 class="h3 modal-header">OUT OF STOCK!</h3>
+      <div id="template" class="column righty-form">
+      {% form 'contact' %}
+        {% if form.posted_successfully? %}
+          <p class="success-message"><strong>{{ 'contact.form.post_success' | t }}</strong></p>
+        {% else %}
+          {% if form.errors %}
+            <ul class="errors">
+              {% for field in form.errors %}
+                <li>{{ field | replace: 'body','Message' | capitalize }} - {{ form.errors.messages[field] }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          <div class="flexible-layout flexible-layout--form">
+            <div class="column column--full">
+              <input
+                type="text"
+                id="product_name_with_variant"
+                name="contact[name]"
+                value="" />
+              <label for="contact_email">{{ 'contact.form.email' | t }}</label>
+              <input
+                type="email"
+                required
+                id="contact_email"
+                class="email"
+                name="contact[email]"
+                autocomplete="email"
+                spellcheck="false"
+                autocapitalize="off"
+                value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}" />
+              <div class="">
+                <button type="submit" id="popup-submit-btn">{{ 'contact.form.send' | t }}</button>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endform %}
+    </div>
+  </div>
+</div>
+<script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn-outofstock");
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  // When the user clicks the button, open the modal
+  btn.onclick = function() {
+    modal.style.display = "block";
+    if (document.getElementById("popup-submit-btn")) document.getElementById("popup-submit-btn").innerText  = "Enviar"
+  }
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>  

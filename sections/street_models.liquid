@@ -1,0 +1,184 @@
+<!-- Studio-to-Street Section -->
+<section class="studio-street-section">
+  <div class="container">
+    <div class="image-row">
+      <div class="image-grid-item corner-item">
+        <img src="{{ section.settings.image_1 | img_url: '1024x1024' }}" alt="Corner Image 1">
+        <p class="image-caption">{{ section.settings.caption_1 }}</p>
+      </div>
+       <!-- Title placed between the corner images but above the middle ones -->
+    <h2 class="section-title">{{ section.settings.title_text }}</h2>
+      <div class="image-grid-item middle-item">
+        <img src="{{ section.settings.image_2 | img_url: '1024x1024' }}" alt="Middle Image 1">
+        <p class="image-caption">{{ section.settings.caption_2 }}</p>
+      </div>
+      <div class="image-grid-item middle-item">
+        <img src="{{ section.settings.image_3 | img_url: '1024x1024' }}" alt="Middle Image 2">
+        <p class="image-caption">{{ section.settings.caption_3 }}</p>
+      </div>
+      <div class="image-grid-item corner-item">
+        <img src="{{ section.settings.image_4 | img_url: '1024x1024' }}" alt="Corner Image 2">
+        <p class="image-caption">{{ section.settings.caption_4 }}</p>
+      </div>
+    </div>
+
+   
+  </div>
+</section>
+
+<!-- Styles for Staggered Layout -->
+
+<style>
+  *{
+    font-family: basic commercial soft rounded;
+  }
+.studio-street-section {
+  padding: 40px 0;
+  text-align: center;
+  position: relative;
+      padding: 60px 170px;
+}
+
+.image-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  align-items: center;
+  position: relative;
+}
+
+.image-grid-item {
+  text-align: center;
+   overflow: hidden;
+}
+
+.corner-item {
+  transform: translateY(-40px); /* Move corner images up */
+}
+
+.middle-item {
+  transform: translateY(60px); /* Move middle images down */
+}
+
+.image-grid-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover; /* Ensure consistent scaling */
+  /* aspect-ratio: 1 / 1.5;  */
+}
+
+.image-caption {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.section-title {
+  position: absolute;
+  top: -30px; /* Position the title above the middle images */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Responsive styling */
+/* Ensure the same structure on mobile with 4 images per row */
+@media (max-width: 768px) {
+  .image-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Maintain 4 columns on mobile */
+    gap: 10px;
+  }
+
+  .corner-item  {
+    transform: translateY(0); /* Disable transformations on mobile for a clean layout */
+  }
+  .middle-item {
+    transform: translateY(37px);
+}
+
+  .section-title {
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+  }
+
+  .studio-street-section {
+    padding: 20px;
+  }
+    .image-caption{
+    font-size: 1rem;
+  }
+   
+
+
+}
+</style>
+
+<!-- Schema for Dynamic Images -->
+{% schema %}
+{
+  "name": "Staggered Image Section",
+  "settings": [
+    {
+      "type":"text",
+      "id": "title_text",
+      "label": "title",
+      "default": "STUDIO TO STREET SWEET"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Corner Image 1"
+    },
+    {
+      "type": "text",
+      "id": "caption_1",
+      "label": "Caption for Corner Image 1",
+      "default": "Hailey Baldwin"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Middle Image 1"
+    },
+    {
+      "type": "text",
+      "id": "caption_2",
+      "label": "Caption for Middle Image 1",
+      "default": "Gigi Hadid"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_3",
+      "label": "Middle Image 2"
+    },
+    {
+      "type": "text",
+      "id": "caption_3",
+      "label": "Caption for Middle Image 2",
+      "default": "Taylor Swift"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_4",
+      "label": "Corner Image 2"
+    },
+    {
+      "type": "text",
+      "id": "caption_4",
+      "label": "Caption for Corner Image 2",
+      "default": "Kendall Jenner"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Staggered Image Section",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
