@@ -1,1 +1,1055 @@
-{"sections":{"image_with_text_overlay_qyaECH":{"type":"image-with-text-overlay","blocks":{"text_FYyYkh":{"type":"text","settings":{"text":"<p>FROM STABLE TO STUDIO<\/p>","font_size_desktop":34,"font_size_mobile":16,"text_bottom_spacing":5}},"heading_EcA8pK":{"type":"heading","settings":{"title":"CASHMERE POLO KNIT CROP TOP","font_size_desktop":55,"font_size_mobile":30,"heading_bottom_spacing":25}},"button_UqbbBL":{"type":"button","settings":{"first_button_link":"shopify:\/\/products\/polo-knit-crop-top","first_button_label":"Shop now","second_button_link":"shopify:\/\/products\/polo-knit-crop-top","second_button_label":"","buttons_style":"outlined","buttons_bottom_spacing":0,"buttons_text":"#ffffff","buttons_background":"#242424"}}},"block_order":["text_FYyYkh","heading_EcA8pK","button_UqbbBL"],"custom_css":["h2 {line-height: 1;}"],"settings":{"image_desktop":"shopify:\/\/shop_images\/Cashmere_Polo_Knit_Crop_Top-WebVersion-Banner_v3.png","height_desktop":"original","text_position_desktop":"center","text_alignment_desktop":"center","enable_klaviyo_popup":false,"caption_width_desktop":100,"image_mobile":"shopify:\/\/shop_images\/Cashmere_Polo_Knit_Crop_Top-MobileVersion-Banner_v3.png","height_mobile":"original","text_position_mobile":"center","text_alignment_mobile":"center","section_link":"shopify:\/\/products\/polo-knit-crop-top","animation_style":"none","section_margin_top":0,"section_margin_bottom":0,"text_color":"#ffffff","caption_bg_color":"rgba(0,0,0,0)","image_overlay_color":"#0f0808","image_overlay_opacity":29}},"slideshow_h798NU":{"type":"slideshow","blocks":{"image_3DcbYP":{"type":"image","disabled":true,"settings":{"title":"Make a great \nfirst impression","text":"Add images and text to give focus to your chosen product, collection, or blog post.","first_button_label":"Shop now","first_button_link":"shopify:\/\/collections\/all","second_button_label":"Learn more","second_button_link":"","buttons_style":"filled","desktop-caption-heading-size":60,"desktop-caption-body-text-size":24,"text_position":"center_left","mobile-caption-heading-size":36,"mobile-caption-body-text-size":16,"mobile_text_position":"center_left","image_overlay":"#262428","image_overlay_opacity":0,"caption-text":"#ffffff","button-text":"#ffffff","button-background":"#242424"}},"image_mgBrPt":{"type":"image","disabled":true,"settings":{"title":"Just for you, this week only.","text":"Buy one, get your second 50% Off. Restrictions apply.","first_button_label":"","first_button_link":"shopify:\/\/collections\/court-ready","second_button_label":"Shop Now","second_button_link":"shopify:\/\/collections\/all","buttons_style":"filled","image":"shopify:\/\/shop_images\/shop_bundles111.webp","desktop-caption-heading-size":60,"desktop-caption-body-text-size":24,"text_position":"center","mobile_image":"shopify:\/\/shop_images\/Untitled_design_9.webp","mobile-caption-heading-size":36,"mobile-caption-body-text-size":16,"mobile_text_position":"center","image_overlay":"#262428","image_overlay_opacity":0,"caption-text":"#ffffff","button-text":"#ffffff","button-background":"#242424"}},"image_abgxx8":{"type":"image","settings":{"title":"The Annual Galtmas Sale","text":"40% Off Sitewide","first_button_label":"SHOP NOW","first_button_link":"shopify:\/\/collections\/all","second_button_label":"","second_button_link":"","buttons_style":"filled","image":"shopify:\/\/shop_images\/Galtsand_Holiday-2024-Website-Banner-5-low4.jpg","desktop-caption-heading-size":74,"desktop-caption-body-text-size":30,"text_position":"center_left","mobile_image":"shopify:\/\/shop_images\/Galtsand_Holiday-2024-Website-14.jpg","mobile-caption-heading-size":30,"mobile-caption-body-text-size":16,"mobile_text_position":"center","image_overlay":"#262428","image_overlay_opacity":0,"caption-text":"#ffffff","button-text":"#343434","button-background":"#242424"}}},"block_order":["image_3DcbYP","image_mgBrPt","image_abgxx8"],"disabled":true,"custom_css":["a {text-decoration: none;}","h2 {line-height: 1;}"],"settings":{"slide_transition_delay":7,"slide_navigation_style":"dots","section_padding_top":0,"section_padding_bottom":0,"desktop_height":"original","mobile_height":"original"}},"scrolling_banner_UkVwEQ":{"type":"scrolling-banner","blocks":{"image_89GJAC":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/New_logo_33_1.png","height_desktop":40,"height_mobile":40,"link":""}}},"block_order":["image_89GJAC"],"settings":{"show_fade":false,"borders":false,"animation_direction":"normal","animation_speed":80,"section_padding_top":15,"section_padding_bottom":15,"space_between_blocks_desktop":80,"space_between_blocks_mobile":20,"rotate":"0","color_scheme":"light"}},"collage_builder3_micX6c":{"type":"collage-builder3","blocks":{"text_rHxhhA":{"type":"text","settings":{"heading":"Women's Mystery Box","heading_size":30,"text":"","text_alignment":"left","button_label":"Shop now","url":"shopify:\/\/collections\/womens-mystery-boxes","buttons_style":"outlined","desktop_position":"md-min-align-center md-min-justify-center","background_color":"#efefef","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#242424"}},"image_PmCU3e":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/MysteryBox_01_7b415d0b-c3ae-4446-9905-e011cae941b7.png","heading":"","heading_size":24,"button_label":"","url":"shopify:\/\/products\/15-womens-styles-for-300","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#242424","overlay_color":"rgba(0,0,0,0)"}},"image_bjhjqx":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/MysteryBox_02.png","heading":"","heading_size":30,"button_label":"","url":"shopify:\/\/products\/15-womens-styles-for-300-copy","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#242424","overlay_color":"rgba(0,0,0,0)"}},"image_ADPMWV":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/MysteryBox_03_d3b15506-336d-4f5d-8d90-6ca88e9205e9.png","heading":"","heading_size":30,"button_label":"","url":"shopify:\/\/products\/9-womens-styles-for-200-copy","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#242424","overlay_color":"rgba(0,0,0,0)"}},"image_HFGPVj":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/MysteryBox_06.png","heading":"","heading_size":30,"button_label":"","url":"shopify:\/\/products\/6-womens-styles-for-150-copy","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#242424","overlay_color":"rgba(0,0,0,0)"}},"image_HXdCa7":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/MysteryBox_07.png","heading":"","heading_size":16,"button_label":"","url":"shopify:\/\/products\/4-womens-styles-for-60-copy","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#242424","overlay_color":"rgba(0,0,0,0)"}}},"block_order":["text_rHxhhA","image_PmCU3e","image_bjhjqx","image_ADPMWV","image_HFGPVj","image_HXdCa7"],"custom_css":[".collage-builder__grid-item--inner {height: 74%;}"],"settings":{"title":"","description":"","section_padding_top":30,"section_padding_bottom":0,"remove_spacing":false,"section_width":"full","width_1":"6","height_1":"4","width_2":"6","height_2":"4","width_3":"6","height_3":"4","width_4":"6","height_4":"4","width_5":"6","height_5":"4","width_6":"6","height_6":"4","block_alignment":"center","color_scheme":"light"}},"collage_builder3_PLYwYm":{"type":"collage-builder3","blocks":{"text_BPAdpi":{"type":"text","settings":{"heading":"Men's Mystery Box","heading_size":30,"text":"","text_alignment":"left","button_label":"Shop Now","url":"shopify:\/\/collections\/mens-mystery-boxes","buttons_style":"outlined","desktop_position":"md-min-align-center md-min-justify-center","background_color":"#efefef","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#242424"}},"image_RN7x9F":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/MysteryBox_01_7b415d0b-c3ae-4446-9905-e011cae941b7.png","heading":"","heading_size":30,"button_label":"","url":"shopify:\/\/products\/9-styles-for-320","buttons_style":"filled","desktop_position":"md-min-align-top md-min-justify-left","mobile_position":"md-max-align-top md-max-justify-left","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#242424","overlay_color":"rgba(0,0,0,0)"}},"image_NzWf9X":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/MysteryBox_02.png","heading":"","heading_size":30,"button_label":"","url":"shopify:\/\/products\/6-mens-styles-for-150-copy","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#242424","overlay_color":"rgba(0,0,0,0)"}},"image_fMz9Ax":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/MysteryBox_03_d3b15506-336d-4f5d-8d90-6ca88e9205e9.png","heading":"","heading_size":30,"button_label":"","url":"shopify:\/\/products\/9-mens-styles-for-320-copy","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#242424","overlay_color":"rgba(0,0,0,0)"}},"image_77TNfX":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/MysteryBox_04.png","heading":"","heading_size":30,"button_label":"","url":"shopify:\/\/products\/6-mens-styles-for-275-copy","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#242424","overlay_color":"rgba(0,0,0,0)"}},"image_WH8DHm":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/MysteryBox_05.png","heading":"","heading_size":30,"button_label":"","url":"shopify:\/\/products\/6-mens-styles-for-275-copy","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#242424","overlay_color":"rgba(0,0,0,0)"}}},"block_order":["text_BPAdpi","image_RN7x9F","image_NzWf9X","image_fMz9Ax","image_77TNfX","image_WH8DHm"],"custom_css":[".collage-builder__grid-item--inner {height: 74%;}"],"settings":{"title":"","description":"","section_padding_top":0,"section_padding_bottom":0,"remove_spacing":false,"section_width":"full","width_1":"6","height_1":"4","width_2":"6","height_2":"4","width_3":"6","height_3":"4","width_4":"6","height_4":"4","width_5":"6","height_5":"4","width_6":"6","height_6":"4","block_alignment":"center","color_scheme":"light"}},"featured_collection_q8MQ9n":{"type":"featured-collection","settings":{"title":"The Equestrian Edit","description":"<p>Styles that will take you from stable to studio.<\/p>","collection":"equestrian","show_view_all":true,"buttons_style":"outlined","section_padding_top":60,"section_padding_bottom":20,"layout_style":"slider","products_to_show":30,"grid-desktop":4,"grid-mobile":"2","colors":"white"}},"image_with_text_overlay_z76NCT":{"type":"image-with-text-overlay","blocks":{"heading_mQRt8H":{"type":"heading","settings":{"title":"Image with text overlay","font_size_desktop":28,"font_size_mobile":28,"heading_bottom_spacing":25}},"text_wYNqcW":{"type":"text","settings":{"text":"<p>Add an image paired with text to give focus to your chosen product, collection, or blog post.<\/p>","font_size_desktop":16,"font_size_mobile":16,"text_bottom_spacing":20}},"button_QjMa4n":{"type":"button","settings":{"first_button_link":"shopify:\/\/collections","first_button_label":"Shop now","second_button_link":"","second_button_label":"","buttons_style":"filled","buttons_bottom_spacing":0,"buttons_text":"#ffffff","buttons_background":"#242424"}}},"block_order":["heading_mQRt8H","text_wYNqcW","button_QjMa4n"],"disabled":true,"settings":{"image_desktop":"shopify:\/\/shop_images\/Galtsand-Trainer-Tee-Active-Men-Fashion-3_bd0d6354-5f98-4d3a-909f-9ec9ed3d7efe.jpg","height_desktop":"original","text_position_desktop":"center","text_alignment_desktop":"center","enable_klaviyo_popup":false,"caption_width_desktop":50,"height_mobile":"original","text_position_mobile":"center","text_alignment_mobile":"center","section_link":"","animation_style":"none","section_margin_top":0,"section_margin_bottom":0,"text_color":"#242424","caption_bg_color":"rgba(0,0,0,0)","image_overlay_color":"#ffffff","image_overlay_opacity":0}},"collage_DeRKrq":{"type":"collage","blocks":{"text_6yQGUK":{"type":"text","settings":{"heading":"Explore women's.","heading_size":30,"text":"Discover our ladies' activewear and athleisure collection, including jackets, bras, leggings, and shorts. Feel effortlessly polished, whether you're on the field, in the studio, or exploring new destinations.","text_alignment":"left","button_label":"MORE WOMEN'S → ","url":"shopify:\/\/pages\/women","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-right","background_color":"#ffffff","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#242424"}},"image_ABe6pH":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/IMG_0037_3ee2cf19-6890-4b5a-b1aa-30c04699ae59.jpg","mobile_image":"shopify:\/\/shop_images\/IMG_0037_3ee2cf19-6890-4b5a-b1aa-30c04699ae59.jpg","heading":"Sport","heading_size":30,"button_label":"Shop Sport","url":"shopify:\/\/collections\/movement","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-center","mobile_position":"md-max-align-center md-max-justify-center","text_color":"#ffffff","button_color":"#e6e5e7","button_background_color":"#262428","overlay_color":"rgba(0,0,0,0)"}},"image_kLtp3K":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/IMG_1102_317fde9a-7a4d-4115-810d-f93092c4c60f.jpg","mobile_image":"shopify:\/\/shop_images\/IMG_1102_317fde9a-7a4d-4115-810d-f93092c4c60f.jpg","heading":"Street","heading_size":22,"button_label":"Shop Street","url":"shopify:\/\/collections\/womens-street","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-center","mobile_position":"md-max-align-center md-max-justify-center","text_color":"#ffffff","button_color":"#262428","button_background_color":"#eeeeee","overlay_color":"rgba(0,0,0,0)"}},"image_6TFnJy":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/IMG_0587.jpg","mobile_image":"shopify:\/\/shop_images\/IMG_0587.jpg","heading":"Studio","heading_size":22,"button_label":"Shop Studio","url":"shopify:\/\/collections\/hiking","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-center","mobile_position":"md-max-align-center md-max-justify-center","text_color":"#ffffff","button_color":"#262428","button_background_color":"#eeeeee","overlay_color":"rgba(0,0,0,0)"}}},"block_order":["text_6yQGUK","image_ABe6pH","image_kLtp3K","image_6TFnJy"],"custom_css":[".theme-img {border-radius: 10px;}"],"settings":{"title":"","description":"","section_padding_top":20,"section_padding_bottom":20,"remove_spacing":false,"section_width":"content","width_1":"4","height_1":"3","width_2":"4","height_2":"3","width_3":"4","height_3":"3","width_4":"4","height_4":"3","width_5":"4","height_5":"6","width_6":"4","height_6":"6","block_alignment":"center","color_scheme":"white"}},"image_with_text_overlay_QEVYmT":{"type":"image-with-text-overlay","blocks":{"heading_FNVhfX":{"type":"heading","settings":{"title":"Comfort And Style","font_size_desktop":62,"font_size_mobile":28,"heading_bottom_spacing":25}},"button_eU8LEp":{"type":"button","settings":{"first_button_link":"shopify:\/\/products\/pique-short-sleeve","first_button_label":"Pique short sleeve","second_button_link":"shopify:\/\/products\/pique-short-sleeve","second_button_label":"","buttons_style":"outlined","buttons_bottom_spacing":0,"buttons_text":"#ffffff","buttons_background":"#242424"}}},"block_order":["heading_FNVhfX","button_eU8LEp"],"settings":{"image_desktop":"shopify:\/\/shop_images\/Galtsand_Event-89.jpg","height_desktop":"450px","text_position_desktop":"left","text_alignment_desktop":"left","enable_klaviyo_popup":false,"caption_width_desktop":64,"image_mobile":"shopify:\/\/shop_images\/Galtsand_Event-89.jpg","height_mobile":"300px","text_position_mobile":"center","text_alignment_mobile":"center","section_link":"shopify:\/\/products\/pique-short-sleeve","animation_style":"none","section_margin_top":40,"section_margin_bottom":25,"text_color":"#ffffff","caption_bg_color":"rgba(0,0,0,0)","image_overlay_color":"#ffffff","image_overlay_opacity":0}},"8e9e36da-191e-4c8c-ba3a-8a307b84bae9":{"type":"collage","blocks":{"text_FtafaL":{"type":"text","settings":{"heading":"Explore men's.","heading_size":30,"text":"Discover our men's heritage collection, featuring t-shirts, sweaters, hoodies, joggers, and shorts crafted from premium pique, recycled cotton and fleece fabrics.","text_alignment":"left","button_label":"more men's → ","url":"shopify:\/\/pages\/men","buttons_style":"filled","desktop_position":"md-min-align-center md-min-justify-left","background_color":"#ffffff","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#242424"}},"template--14831909208134__8e9e36da-191e-4c8c-ba3a-8a307b84bae9-image-1":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/Rodney_Galtsand.jpg","mobile_image":"shopify:\/\/shop_images\/Rodney_Galtsand.jpg","heading":"Tops.","heading_size":30,"button_label":"shop Tops","url":"shopify:\/\/collections\/mens-tops","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-center","mobile_position":"md-max-align-center md-max-justify-center","text_color":"#ffffff","button_color":"#e6e5e7","button_background_color":"#262428","overlay_color":"rgba(0,0,0,0)"}},"da5b3af5-5d95-44e2-b098-f4b3a39403f9":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/Rodney_Galtsand-3.jpg","mobile_image":"shopify:\/\/shop_images\/Rodney_Galtsand-3.jpg","heading":"Bottoms.","heading_size":30,"button_label":"shop bottoms","url":"https:\/\/galtsand.com\/collections\/bottoms","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-center","mobile_position":"md-max-align-center md-max-justify-center","text_color":"#ffffff","button_color":"#262428","button_background_color":"#eeeeee","overlay_color":"rgba(0,0,0,0)"}},"9cf4de3c-89e3-446e-b378-f839c160f721":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/Rodney_Galtsand-2.jpg","mobile_image":"shopify:\/\/shop_images\/Rodney_Galtsand-2.jpg","heading":"Must Haves.","heading_size":22,"button_label":"Shop BEST","url":"shopify:\/\/collections\/mens-best-sellers","buttons_style":"filled","desktop_position":"md-min-align-bottom md-min-justify-center","mobile_position":"md-max-align-center md-max-justify-center","text_color":"#ffffff","button_color":"#262428","button_background_color":"#eeeeee","overlay_color":"rgba(0,0,0,0)"}}},"block_order":["text_FtafaL","template--14831909208134__8e9e36da-191e-4c8c-ba3a-8a307b84bae9-image-1","da5b3af5-5d95-44e2-b098-f4b3a39403f9","9cf4de3c-89e3-446e-b378-f839c160f721"],"custom_css":[".theme-img {border-radius: 10px;}"],"settings":{"title":"","description":"","section_padding_top":30,"section_padding_bottom":5,"remove_spacing":false,"section_width":"content","width_1":"4","height_1":"3","width_2":"4","height_2":"3","width_3":"4","height_3":"3","width_4":"4","height_4":"3","width_5":"4","height_5":"6","width_6":"4","height_6":"6","block_alignment":"center","color_scheme":"white"}},"image_with_text_overlay_yWiiKN":{"type":"image-with-text-overlay","blocks":{"heading_g9EcrJ":{"type":"heading","disabled":true,"settings":{"title":"Where Heritage Meets Innovation in Athleisure.","font_size_desktop":30,"font_size_mobile":28,"heading_bottom_spacing":18}}},"block_order":["heading_g9EcrJ"],"custom_css":[".wrapper-spacing--v:hover {cursor: pointer;}"],"settings":{"image_desktop":"shopify:\/\/shop_images\/DSC_53072.jpg","height_desktop":"original","text_position_desktop":"right","text_alignment_desktop":"right","enable_klaviyo_popup":false,"caption_width_desktop":50,"image_mobile":"shopify:\/\/shop_images\/DSC_541822.jpg","height_mobile":"original","text_position_mobile":"center","text_alignment_mobile":"center","section_link":"shopify:\/\/products\/infinity-jacket","animation_style":"none","section_margin_top":20,"section_margin_bottom":20,"text_color":"#ffffff","caption_bg_color":"#494949","image_overlay_color":"#ffffff","image_overlay_opacity":0}},"collection_list_nFRUhJ":{"type":"collection-list","blocks":{"featured_collection_JyjQEf":{"type":"featured_collection","settings":{"collection":"most-loved-this-week-1","collection_img":"shopify:\/\/shop_images\/Untit56767led.jpg","subheading":"","overlay-btn-text":"Shop the best of everything.","show-gradient-overlay":false,"overlay_font_color":"#262428","overlay_color":"#ffffff"}},"featured_collection_n7h4dq":{"type":"featured_collection","settings":{"collection":"20-off-bundles","collection_img":"shopify:\/\/shop_images\/Pique_Pintuck_Jogger_Darkest_Navy_M_Heritagw_1-4_Zip_Navy-3.jpg","subheading":"","overlay-btn-text":"Shop deals on bundles.","show-gradient-overlay":false,"overlay_font_color":"#262428","overlay_color":"#ffffff"}},"featured_collection_LR6RrA":{"type":"featured_collection","settings":{"collection":"ready-for-takeff","collection_img":"shopify:\/\/shop_images\/Untit567657led.jpg","subheading":"","overlay-btn-text":"Shop travel essentials.","show-gradient-overlay":false,"overlay_font_color":"#262428","overlay_color":"#ffffff"}}},"block_order":["featured_collection_JyjQEf","featured_collection_n7h4dq","featured_collection_LR6RrA"],"custom_css":[".theme-img {border-radius: 10px;}","@media only screen and (max-width: 768px) {.collection-grid {gap: 35px; }}"],"settings":{"title":"","description":"","buttons_style":"filled","section_padding_top":40,"section_padding_bottom":55,"items-per-row":3,"remove-spacing":false,"section-width":"full","content-position":"below-image","colors":"white"}},"newsletter_Cj8kTa":{"type":"newsletter","custom_css":["h3 {line-height: 1;}"],"settings":{"newsletter_heading":"VIP offers, exclusive promotions, and big discounts.","newsletter_description":"","textAlignment":"left","section_padding_top":60,"section_padding_bottom":60,"colors":"light"}},"scrolling_banner_RUiHpz":{"type":"scrolling-banner","blocks":{"image_jAb6i7":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/New_logo_33_1.png","height_desktop":40,"height_mobile":24,"link":""}}},"block_order":["image_jAb6i7"],"settings":{"show_fade":false,"borders":false,"animation_direction":"reverse","animation_speed":80,"section_padding_top":10,"section_padding_bottom":10,"space_between_blocks_desktop":86,"space_between_blocks_mobile":30,"rotate":"0","color_scheme":"white"}}},"order":["image_with_text_overlay_qyaECH","slideshow_h798NU","scrolling_banner_UkVwEQ","collage_builder3_micX6c","collage_builder3_PLYwYm","featured_collection_q8MQ9n","image_with_text_overlay_z76NCT","collage_DeRKrq","image_with_text_overlay_QEVYmT","8e9e36da-191e-4c8c-ba3a-8a307b84bae9","image_with_text_overlay_yWiiKN","collection_list_nFRUhJ","newsletter_Cj8kTa","scrolling_banner_RUiHpz"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_aTKVBi": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_CjMMzh": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image with text overlay",
+            "font_size_desktop": 28,
+            "font_size_mobile": 28,
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_nj9hPp": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Add an image paired with text to give focus to your chosen product, collection, or blog post.</p>",
+            "font_size_desktop": 16,
+            "font_size_mobile": 16,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_fhbn6Q": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "first_button_link": "shopify://collections",
+            "first_button_label": "Shop now",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "buttons_bottom_spacing": 0,
+            "buttons_text": "#FFFFFF",
+            "buttons_background": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CjMMzh",
+        "text_nj9hPp",
+        "button_fhbn6Q"
+      ],
+      "settings": {
+        "image_desktop": "shopify://shop_images/Mystery_Boxes_-_Web_Banner.png",
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "enable_klaviyo_popup": false,
+        "caption_width_desktop": 50,
+        "image_mobile": "shopify://shop_images/Mystery_Boxes_-_Mobile_Banner_1.gif",
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#242424",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#FFFFFF",
+        "image_overlay_opacity": 0
+      }
+    },
+    "image_with_text_overlay_qyaECH": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "text_FYyYkh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>FROM STABLE TO STUDIO</p>",
+            "font_size_desktop": 34,
+            "font_size_mobile": 16,
+            "text_bottom_spacing": 5
+          }
+        },
+        "heading_EcA8pK": {
+          "type": "heading",
+          "settings": {
+            "title": "CASHMERE POLO KNIT CROP TOP",
+            "font_size_desktop": 55,
+            "font_size_mobile": 30,
+            "heading_bottom_spacing": 25
+          }
+        },
+        "button_UqbbBL": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "shopify://products/polo-knit-crop-top",
+            "first_button_label": "Shop now",
+            "second_button_link": "shopify://products/polo-knit-crop-top",
+            "second_button_label": "",
+            "buttons_style": "outlined",
+            "buttons_bottom_spacing": 0,
+            "buttons_text": "#ffffff",
+            "buttons_background": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "text_FYyYkh",
+        "heading_EcA8pK",
+        "button_UqbbBL"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {line-height: 1;}"
+      ],
+      "settings": {
+        "image_desktop": "shopify://shop_images/Cashmere_Polo_Knit_Crop_Top-WebVersion-Banner_v3.png",
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "enable_klaviyo_popup": false,
+        "caption_width_desktop": 100,
+        "image_mobile": "shopify://shop_images/Cashmere_Polo_Knit_Crop_Top-MobileVersion-Banner_v3.png",
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "shopify://products/polo-knit-crop-top",
+        "animation_style": "none",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#0f0808",
+        "image_overlay_opacity": 29
+      }
+    },
+    "slideshow_h798NU": {
+      "type": "slideshow",
+      "blocks": {
+        "image_3DcbYP": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Make a great \nfirst impression",
+            "text": "Add images and text to give focus to your chosen product, collection, or blog post.",
+            "first_button_label": "Shop now",
+            "first_button_link": "shopify://collections/all",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#262428",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#242424"
+          }
+        },
+        "image_mgBrPt": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Just for you, this week only.",
+            "text": "Buy one, get your second 50% Off. Restrictions apply.",
+            "first_button_label": "",
+            "first_button_link": "shopify://collections/court-ready",
+            "second_button_label": "Shop Now",
+            "second_button_link": "shopify://collections/all",
+            "buttons_style": "filled",
+            "image": "shopify://shop_images/shop_bundles111.webp",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center",
+            "mobile_image": "shopify://shop_images/Untitled_design_9.webp",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center",
+            "image_overlay": "#262428",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#242424"
+          }
+        },
+        "image_abgxx8": {
+          "type": "image",
+          "settings": {
+            "title": "The Annual Galtmas Sale",
+            "text": "40% Off Sitewide",
+            "first_button_label": "SHOP NOW",
+            "first_button_link": "shopify://collections/all",
+            "second_button_label": "",
+            "second_button_link": "",
+            "buttons_style": "filled",
+            "image": "shopify://shop_images/Galtsand_Holiday-2024-Website-Banner-5-low4.jpg",
+            "desktop-caption-heading-size": 74,
+            "desktop-caption-body-text-size": 30,
+            "text_position": "center_left",
+            "mobile_image": "shopify://shop_images/Galtsand_Holiday-2024-Website-14.jpg",
+            "mobile-caption-heading-size": 30,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center",
+            "image_overlay": "#262428",
+            "image_overlay_opacity": 0,
+            "caption-text": "#ffffff",
+            "button-text": "#343434",
+            "button-background": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "image_3DcbYP",
+        "image_mgBrPt",
+        "image_abgxx8"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "a {text-decoration: none;}",
+        "h2 {line-height: 1;}"
+      ],
+      "settings": {
+        "slide_transition_delay": 7,
+        "slide_navigation_style": "dots",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "desktop_height": "original",
+        "mobile_height": "original"
+      }
+    },
+    "scrolling_banner_UkVwEQ": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_89GJAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/New_logo_33_1.png",
+            "height_desktop": 40,
+            "height_mobile": 40,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_89GJAC"
+      ],
+      "settings": {
+        "show_fade": false,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 80,
+        "section_padding_top": 15,
+        "section_padding_bottom": 15,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "color_scheme": "light"
+      }
+    },
+    "collage_builder3_micX6c": {
+      "type": "collage-builder3",
+      "blocks": {
+        "text_rHxhhA": {
+          "type": "text",
+          "settings": {
+            "heading": "Women's Mystery Box",
+            "heading_size": 30,
+            "text": "",
+            "text_alignment": "left",
+            "button_label": "Shop now",
+            "url": "shopify://collections/womens-mystery-boxes",
+            "buttons_style": "outlined",
+            "desktop_position": "md-min-align-center md-min-justify-center",
+            "background_color": "#efefef",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424"
+          }
+        },
+        "image_PmCU3e": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/MysteryBox_01_7b415d0b-c3ae-4446-9905-e011cae941b7.png",
+            "heading": "",
+            "heading_size": 24,
+            "button_label": "",
+            "url": "shopify://products/15-womens-styles-for-300",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_bjhjqx": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/MysteryBox_02.png",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "shopify://products/15-womens-styles-for-300-copy",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_ADPMWV": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/MysteryBox_03_d3b15506-336d-4f5d-8d90-6ca88e9205e9.png",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "shopify://products/9-womens-styles-for-200-copy",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_HFGPVj": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/MysteryBox_06.png",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "shopify://products/6-womens-styles-for-150-copy",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_HXdCa7": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/MysteryBox_07.png",
+            "heading": "",
+            "heading_size": 16,
+            "button_label": "",
+            "url": "shopify://products/4-womens-styles-for-60-copy",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "text_rHxhhA",
+        "image_PmCU3e",
+        "image_bjhjqx",
+        "image_ADPMWV",
+        "image_HFGPVj",
+        "image_HXdCa7"
+      ],
+      "custom_css": [
+        ".collage-builder__grid-item--inner {height: 74%;}"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_padding_top": 30,
+        "section_padding_bottom": 0,
+        "remove_spacing": false,
+        "section_width": "full",
+        "width_1": "6",
+        "height_1": "4",
+        "width_2": "6",
+        "height_2": "4",
+        "width_3": "6",
+        "height_3": "4",
+        "width_4": "6",
+        "height_4": "4",
+        "width_5": "6",
+        "height_5": "4",
+        "width_6": "6",
+        "height_6": "4",
+        "block_alignment": "center",
+        "color_scheme": "light"
+      }
+    },
+    "collage_builder3_PLYwYm": {
+      "type": "collage-builder3",
+      "blocks": {
+        "text_BPAdpi": {
+          "type": "text",
+          "settings": {
+            "heading": "Men's Mystery Box",
+            "heading_size": 30,
+            "text": "",
+            "text_alignment": "left",
+            "button_label": "Shop Now",
+            "url": "shopify://collections/mens-mystery-boxes",
+            "buttons_style": "outlined",
+            "desktop_position": "md-min-align-center md-min-justify-center",
+            "background_color": "#efefef",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424"
+          }
+        },
+        "image_RN7x9F": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/MysteryBox_01_7b415d0b-c3ae-4446-9905-e011cae941b7.png",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "shopify://products/9-styles-for-320",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "mobile_position": "md-max-align-top md-max-justify-left",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_NzWf9X": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/MysteryBox_02.png",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "shopify://products/6-mens-styles-for-150-copy",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_fMz9Ax": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/MysteryBox_03_d3b15506-336d-4f5d-8d90-6ca88e9205e9.png",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "shopify://products/9-mens-styles-for-320-copy",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_77TNfX": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/MysteryBox_04.png",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "shopify://products/6-mens-styles-for-275-copy",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_WH8DHm": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/MysteryBox_05.png",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "shopify://products/6-mens-styles-for-275-copy",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "text_BPAdpi",
+        "image_RN7x9F",
+        "image_NzWf9X",
+        "image_fMz9Ax",
+        "image_77TNfX",
+        "image_WH8DHm"
+      ],
+      "custom_css": [
+        ".collage-builder__grid-item--inner {height: 74%;}"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "remove_spacing": false,
+        "section_width": "full",
+        "width_1": "6",
+        "height_1": "4",
+        "width_2": "6",
+        "height_2": "4",
+        "width_3": "6",
+        "height_3": "4",
+        "width_4": "6",
+        "height_4": "4",
+        "width_5": "6",
+        "height_5": "4",
+        "width_6": "6",
+        "height_6": "4",
+        "block_alignment": "center",
+        "color_scheme": "light"
+      }
+    },
+    "featured_collection_q8MQ9n": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "The Equestrian Edit",
+        "description": "<p>Styles that will take you from stable to studio.</p>",
+        "collection": "equestrian",
+        "show_view_all": true,
+        "buttons_style": "outlined",
+        "section_padding_top": 60,
+        "section_padding_bottom": 20,
+        "layout_style": "slider",
+        "products_to_show": 30,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
+    "image_with_text_overlay_z76NCT": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_mQRt8H": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text overlay",
+            "font_size_desktop": 28,
+            "font_size_mobile": 28,
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_wYNqcW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add an image paired with text to give focus to your chosen product, collection, or blog post.</p>",
+            "font_size_desktop": 16,
+            "font_size_mobile": 16,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_QjMa4n": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "shopify://collections",
+            "first_button_label": "Shop now",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "buttons_bottom_spacing": 0,
+            "buttons_text": "#ffffff",
+            "buttons_background": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mQRt8H",
+        "text_wYNqcW",
+        "button_QjMa4n"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_desktop": "shopify://shop_images/Galtsand-Trainer-Tee-Active-Men-Fashion-3_bd0d6354-5f98-4d3a-909f-9ec9ed3d7efe.jpg",
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "enable_klaviyo_popup": false,
+        "caption_width_desktop": 50,
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#242424",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#ffffff",
+        "image_overlay_opacity": 0
+      }
+    },
+    "collage_DeRKrq": {
+      "type": "collage",
+      "blocks": {
+        "text_6yQGUK": {
+          "type": "text",
+          "settings": {
+            "heading": "Explore women's.",
+            "heading_size": 30,
+            "text": "Discover our ladies' activewear and athleisure collection, including jackets, bras, leggings, and shorts. Feel effortlessly polished, whether you're on the field, in the studio, or exploring new destinations.",
+            "text_alignment": "left",
+            "button_label": "MORE WOMEN'S → ",
+            "url": "shopify://pages/women",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "background_color": "#ffffff",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424"
+          }
+        },
+        "image_ABe6pH": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/IMG_0037_3ee2cf19-6890-4b5a-b1aa-30c04699ae59.jpg",
+            "mobile_image": "shopify://shop_images/IMG_0037_3ee2cf19-6890-4b5a-b1aa-30c04699ae59.jpg",
+            "heading": "Sport",
+            "heading_size": 30,
+            "button_label": "Shop Sport",
+            "url": "shopify://collections/movement",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "text_color": "#ffffff",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#262428",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_kLtp3K": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/IMG_1102_317fde9a-7a4d-4115-810d-f93092c4c60f.jpg",
+            "mobile_image": "shopify://shop_images/IMG_1102_317fde9a-7a4d-4115-810d-f93092c4c60f.jpg",
+            "heading": "Street",
+            "heading_size": 22,
+            "button_label": "Shop Street",
+            "url": "shopify://collections/womens-street",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "text_color": "#ffffff",
+            "button_color": "#262428",
+            "button_background_color": "#eeeeee",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_6TFnJy": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/IMG_0587.jpg",
+            "mobile_image": "shopify://shop_images/IMG_0587.jpg",
+            "heading": "Studio",
+            "heading_size": 22,
+            "button_label": "Shop Studio",
+            "url": "shopify://collections/hiking",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "text_color": "#ffffff",
+            "button_color": "#262428",
+            "button_background_color": "#eeeeee",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "text_6yQGUK",
+        "image_ABe6pH",
+        "image_kLtp3K",
+        "image_6TFnJy"
+      ],
+      "custom_css": [
+        ".theme-img {border-radius: 10px;}"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_padding_top": 20,
+        "section_padding_bottom": 20,
+        "remove_spacing": false,
+        "section_width": "content",
+        "width_1": "4",
+        "height_1": "3",
+        "width_2": "4",
+        "height_2": "3",
+        "width_3": "4",
+        "height_3": "3",
+        "width_4": "4",
+        "height_4": "3",
+        "width_5": "4",
+        "height_5": "6",
+        "width_6": "4",
+        "height_6": "6",
+        "block_alignment": "center",
+        "color_scheme": "white"
+      }
+    },
+    "image_with_text_overlay_QEVYmT": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_FNVhfX": {
+          "type": "heading",
+          "settings": {
+            "title": "Comfort And Style",
+            "font_size_desktop": 62,
+            "font_size_mobile": 28,
+            "heading_bottom_spacing": 25
+          }
+        },
+        "button_eU8LEp": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "shopify://products/pique-short-sleeve",
+            "first_button_label": "Pique short sleeve",
+            "second_button_link": "shopify://products/pique-short-sleeve",
+            "second_button_label": "",
+            "buttons_style": "outlined",
+            "buttons_bottom_spacing": 0,
+            "buttons_text": "#ffffff",
+            "buttons_background": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FNVhfX",
+        "button_eU8LEp"
+      ],
+      "settings": {
+        "image_desktop": "shopify://shop_images/Galtsand_Event-89.jpg",
+        "height_desktop": "450px",
+        "text_position_desktop": "left",
+        "text_alignment_desktop": "left",
+        "enable_klaviyo_popup": false,
+        "caption_width_desktop": 64,
+        "image_mobile": "shopify://shop_images/Galtsand_Event-89.jpg",
+        "height_mobile": "300px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "shopify://products/pique-short-sleeve",
+        "animation_style": "none",
+        "section_margin_top": 40,
+        "section_margin_bottom": 25,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#ffffff",
+        "image_overlay_opacity": 0
+      }
+    },
+    "8e9e36da-191e-4c8c-ba3a-8a307b84bae9": {
+      "type": "collage",
+      "blocks": {
+        "text_FtafaL": {
+          "type": "text",
+          "settings": {
+            "heading": "Explore men's.",
+            "heading_size": 30,
+            "text": "Discover our men's heritage collection, featuring t-shirts, sweaters, hoodies, joggers, and shorts crafted from premium pique, recycled cotton and fleece fabrics.",
+            "text_alignment": "left",
+            "button_label": "more men's → ",
+            "url": "shopify://pages/men",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-center md-min-justify-left",
+            "background_color": "#ffffff",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#242424"
+          }
+        },
+        "template--14831909208134__8e9e36da-191e-4c8c-ba3a-8a307b84bae9-image-1": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Rodney_Galtsand.jpg",
+            "mobile_image": "shopify://shop_images/Rodney_Galtsand.jpg",
+            "heading": "Tops.",
+            "heading_size": 30,
+            "button_label": "shop Tops",
+            "url": "shopify://collections/mens-tops",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "text_color": "#ffffff",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#262428",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "da5b3af5-5d95-44e2-b098-f4b3a39403f9": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Rodney_Galtsand-3.jpg",
+            "mobile_image": "shopify://shop_images/Rodney_Galtsand-3.jpg",
+            "heading": "Bottoms.",
+            "heading_size": 30,
+            "button_label": "shop bottoms",
+            "url": "https://galtsand.com/collections/bottoms",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "text_color": "#ffffff",
+            "button_color": "#262428",
+            "button_background_color": "#eeeeee",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "9cf4de3c-89e3-446e-b378-f839c160f721": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Rodney_Galtsand-2.jpg",
+            "mobile_image": "shopify://shop_images/Rodney_Galtsand-2.jpg",
+            "heading": "Must Haves.",
+            "heading_size": 22,
+            "button_label": "Shop BEST",
+            "url": "shopify://collections/mens-best-sellers",
+            "buttons_style": "filled",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "text_color": "#ffffff",
+            "button_color": "#262428",
+            "button_background_color": "#eeeeee",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "text_FtafaL",
+        "template--14831909208134__8e9e36da-191e-4c8c-ba3a-8a307b84bae9-image-1",
+        "da5b3af5-5d95-44e2-b098-f4b3a39403f9",
+        "9cf4de3c-89e3-446e-b378-f839c160f721"
+      ],
+      "custom_css": [
+        ".theme-img {border-radius: 10px;}"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_padding_top": 30,
+        "section_padding_bottom": 5,
+        "remove_spacing": false,
+        "section_width": "content",
+        "width_1": "4",
+        "height_1": "3",
+        "width_2": "4",
+        "height_2": "3",
+        "width_3": "4",
+        "height_3": "3",
+        "width_4": "4",
+        "height_4": "3",
+        "width_5": "4",
+        "height_5": "6",
+        "width_6": "4",
+        "height_6": "6",
+        "block_alignment": "center",
+        "color_scheme": "white"
+      }
+    },
+    "image_with_text_overlay_yWiiKN": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_g9EcrJ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Where Heritage Meets Innovation in Athleisure.",
+            "font_size_desktop": 30,
+            "font_size_mobile": 28,
+            "heading_bottom_spacing": 18
+          }
+        }
+      },
+      "block_order": [
+        "heading_g9EcrJ"
+      ],
+      "custom_css": [
+        ".wrapper-spacing--v:hover {cursor: pointer;}"
+      ],
+      "settings": {
+        "image_desktop": "shopify://shop_images/DSC_53072.jpg",
+        "height_desktop": "original",
+        "text_position_desktop": "right",
+        "text_alignment_desktop": "right",
+        "enable_klaviyo_popup": false,
+        "caption_width_desktop": 50,
+        "image_mobile": "shopify://shop_images/DSC_541822.jpg",
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "shopify://products/infinity-jacket",
+        "animation_style": "none",
+        "section_margin_top": 20,
+        "section_margin_bottom": 20,
+        "text_color": "#ffffff",
+        "caption_bg_color": "#494949",
+        "image_overlay_color": "#ffffff",
+        "image_overlay_opacity": 0
+      }
+    },
+    "collection_list_nFRUhJ": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_JyjQEf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "most-loved-this-week-1",
+            "collection_img": "shopify://shop_images/Untit56767led.jpg",
+            "subheading": "",
+            "overlay-btn-text": "Shop the best of everything.",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "featured_collection_n7h4dq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "20-off-bundles",
+            "collection_img": "shopify://shop_images/Pique_Pintuck_Jogger_Darkest_Navy_M_Heritagw_1-4_Zip_Navy-3.jpg",
+            "subheading": "",
+            "overlay-btn-text": "Shop deals on bundles.",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "featured_collection_LR6RrA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ready-for-takeff",
+            "collection_img": "shopify://shop_images/Untit567657led.jpg",
+            "subheading": "",
+            "overlay-btn-text": "Shop travel essentials.",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_JyjQEf",
+        "featured_collection_n7h4dq",
+        "featured_collection_LR6RrA"
+      ],
+      "custom_css": [
+        ".theme-img {border-radius: 10px;}",
+        "@media only screen and (max-width: 768px) {.collection-grid {gap: 35px; }}"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "buttons_style": "filled",
+        "section_padding_top": 40,
+        "section_padding_bottom": 55,
+        "items-per-row": 3,
+        "remove-spacing": false,
+        "section-width": "full",
+        "content-position": "below-image",
+        "colors": "white"
+      }
+    },
+    "newsletter_Cj8kTa": {
+      "type": "newsletter",
+      "custom_css": [
+        "h3 {line-height: 1;}"
+      ],
+      "settings": {
+        "newsletter_heading": "VIP offers, exclusive promotions, and big discounts.",
+        "newsletter_description": "",
+        "textAlignment": "left",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "light"
+      }
+    },
+    "scrolling_banner_RUiHpz": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_jAb6i7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/New_logo_33_1.png",
+            "height_desktop": 40,
+            "height_mobile": 24,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jAb6i7"
+      ],
+      "settings": {
+        "show_fade": false,
+        "borders": false,
+        "animation_direction": "reverse",
+        "animation_speed": 80,
+        "section_padding_top": 10,
+        "section_padding_bottom": 10,
+        "space_between_blocks_desktop": 86,
+        "space_between_blocks_mobile": 30,
+        "rotate": "0",
+        "color_scheme": "white"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_aTKVBi",
+    "image_with_text_overlay_qyaECH",
+    "slideshow_h798NU",
+    "scrolling_banner_UkVwEQ",
+    "collage_builder3_micX6c",
+    "collage_builder3_PLYwYm",
+    "featured_collection_q8MQ9n",
+    "image_with_text_overlay_z76NCT",
+    "collage_DeRKrq",
+    "image_with_text_overlay_QEVYmT",
+    "8e9e36da-191e-4c8c-ba3a-8a307b84bae9",
+    "image_with_text_overlay_yWiiKN",
+    "collection_list_nFRUhJ",
+    "newsletter_Cj8kTa",
+    "scrolling_banner_RUiHpz"
+  ]
+}
