@@ -279,7 +279,7 @@
             "url": "shopify://collections/womens-mystery-boxes",
             "buttons_style": "outlined",
             "desktop_position": "md-min-align-center md-min-justify-center",
-            "background_color": "#efefef",
+            "background_color": "#f2efec",
             "text_color": "#262428",
             "button_color": "#e6e5e7",
             "button_background_color": "#242424"
@@ -402,7 +402,7 @@
         "width_6": "6",
         "height_6": "4",
         "block_alignment": "center",
-        "color_scheme": "light"
+        "color_scheme": "white"
       }
     },
     "collage_builder3_PLYwYm": {
@@ -419,7 +419,7 @@
             "url": "shopify://collections/mens-mystery-boxes",
             "buttons_style": "outlined",
             "desktop_position": "md-min-align-center md-min-justify-center",
-            "background_color": "#efefef",
+            "background_color": "#f2efec",
             "text_color": "#262428",
             "button_color": "#e6e5e7",
             "button_background_color": "#242424"
@@ -542,11 +542,14 @@
         "width_6": "6",
         "height_6": "4",
         "block_alignment": "center",
-        "color_scheme": "light"
+        "color_scheme": "white"
       }
     },
     "featured_collection_q8MQ9n": {
       "type": "featured-collection",
+      "custom_css": [
+        ".grid-view-item {border: 1px solid #F1F1F1;}"
+      ],
       "settings": {
         "title": "The Equestrian Edit",
         "description": "<p>Styles that will take you from stable to studio.</p>",
@@ -559,7 +562,7 @@
         "products_to_show": 30,
         "grid-desktop": 4,
         "grid-mobile": "2",
-        "colors": "white"
+        "colors": "light"
       }
     },
     "image_with_text_overlay_z76NCT": {
