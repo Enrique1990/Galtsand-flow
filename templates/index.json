@@ -279,7 +279,7 @@
             "url": "shopify://collections/womens-mystery-boxes",
             "buttons_style": "outlined",
             "desktop_position": "md-min-align-center md-min-justify-center",
-            "background_color": "#f2efec",
+            "background_color": "#f5efe6",
             "text_color": "#262428",
             "button_color": "#e6e5e7",
             "button_background_color": "#242424"
@@ -419,7 +419,7 @@
             "url": "shopify://collections/mens-mystery-boxes",
             "buttons_style": "outlined",
             "desktop_position": "md-min-align-center md-min-justify-center",
-            "background_color": "#f2efec",
+            "background_color": "#f5efe6",
             "text_color": "#262428",
             "button_color": "#e6e5e7",
             "button_background_color": "#242424"
