@@ -548,7 +548,7 @@
     "featured_collection_q8MQ9n": {
       "type": "featured-collection",
       "custom_css": [
-        ".grid-view-item {border: 1px solid #F1F1F1;}"
+        ".grid-view-item {border: 1px solid #f1f1f1;}"
       ],
       "settings": {
         "title": "The Equestrian Edit",
@@ -557,7 +557,7 @@
         "show_view_all": true,
         "buttons_style": "outlined",
         "section_padding_top": 60,
-        "section_padding_bottom": 20,
+        "section_padding_bottom": 65,
         "layout_style": "slider",
         "products_to_show": 30,
         "grid-desktop": 4,
