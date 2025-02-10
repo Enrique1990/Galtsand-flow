@@ -639,7 +639,7 @@
             "button_label": "MORE WOMEN'S → ",
             "url": "shopify://pages/women",
             "buttons_style": "filled",
-            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "desktop_position": "md-min-align-center md-min-justify-center",
             "background_color": "#ffffff",
             "text_color": "#262428",
             "button_color": "#e6e5e7",
