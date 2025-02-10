@@ -26,7 +26,7 @@
 
                     {% when 'heading' %}
                         {% if block.settings.heading != blank %}
-                            <div class="sitewide--title-wrapper featured-row__subtext">
+                            <div class="sitewide--title-wrapper featured-row__subtext" {{ block.shopify_attributes }}>
         
                                 <h2 class="rte homepage-sections--title" style="font-size: {{ block.settings.heading--text-size }}px;">{{ block.settings.heading | escape }}</h2>
                             </div>
@@ -34,7 +34,7 @@
 
                     {% when 'richtext' %}
                         {% if block.settings.text != blank %}
-                            <div class="rte featured-row__subtext textarea text-link-animated" style="font-size: {{ block.settings.text_size }}px;">{{ block.settings.text }}</div>
+                            <div class="rte featured-row__subtext textarea text-link-animated" style="font-size: {{ block.settings.text_size }}px;" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
                         {% endif %}
 
                     {% when 'button' %}
@@ -49,7 +49,7 @@
                                 assign button_classes = 'btn--underlined'
                             endcase
                           %}
-                        <div class="rte featured-row__subtext{% if block.settings.buttons_style == 'underlined' %} text-link-animated{% endif %}">
+                        <div class="rte featured-row__subtext{% if block.settings.buttons_style == 'underlined' %} text-link-animated{% endif %}" {{ block.shopify_attributes }}>
                           <a href="{{ block.settings.button_link }}" class="{{ button_classes }} homepage-featured-box-btn">
                             {{ block.settings.button_text }}
                           </a>
@@ -58,7 +58,7 @@
 
                     {% when 'page' %}
                         {% if block.settings.page.content %}
-                            <div class="rte featured-row__subtext text-link-animated" style="font-size: {{ block.settings.text_size }}px;">{{ block.settings.page.content }}</div>
+                            <div class="rte featured-row__subtext text-link-animated" style="font-size: {{ block.settings.text_size }}px;" {{ block.shopify_attributes }}>{{ block.settings.page.content }}</div>
                         {% endif %}
 
                 {% endcase %}
