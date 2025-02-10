@@ -380,7 +380,8 @@
         "image_HXdCa7"
       ],
       "custom_css": [
-        ".collage-builder__grid-item--inner {height: 74%;}"
+        ".collage-builder__grid-item--inner {height: 74%;}",
+        ".collage-builder__text-container {border-radius: 10px;}"
       ],
       "settings": {
         "title": "",
@@ -520,7 +521,8 @@
         "image_WH8DHm"
       ],
       "custom_css": [
-        ".collage-builder__grid-item--inner {height: 74%;}"
+        ".collage-builder__grid-item--inner {height: 74%;}",
+        ".collage-builder__text-container {border-radius: 10px;}"
       ],
       "settings": {
         "title": "",
