@@ -14,33 +14,30 @@
       "blocks": {
         "heading_CjMMzh": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "title": "Image with text overlay",
-            "font_size_desktop": 28,
+            "title": "FROM STABLE TO STUDIO",
+            "font_size_desktop": 48,
             "font_size_mobile": 28,
             "heading_bottom_spacing": 25
           }
         },
         "text_nj9hPp": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Add an image paired with text to give focus to your chosen product, collection, or blog post.</p>",
-            "font_size_desktop": 16,
+            "text": "<p>LOTUS JACKET</p>",
+            "font_size_desktop": 36,
             "font_size_mobile": 16,
             "text_bottom_spacing": 20
           }
         },
         "button_fhbn6Q": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "first_button_link": "shopify://collections",
+            "first_button_link": "shopify://products/lotus-jacket",
             "first_button_label": "Shop now",
             "second_button_link": "",
             "second_button_label": "",
-            "buttons_style": "filled",
+            "buttons_style": "outlined",
             "buttons_bottom_spacing": 0,
             "buttons_text": "#ffffff",
             "buttons_background": "#242424"
@@ -53,13 +50,13 @@
         "button_fhbn6Q"
       ],
       "settings": {
-        "image_desktop": "shopify://shop_images/Mystery_Boxes_-_Web_Banner.png",
+        "image_desktop": "shopify://shop_images/DSC5856.jpg",
         "height_desktop": "original",
         "text_position_desktop": "center",
         "text_alignment_desktop": "center",
         "enable_klaviyo_popup": false,
         "caption_width_desktop": 50,
-        "image_mobile": "shopify://shop_images/mystery.png",
+        "image_mobile": "shopify://shop_images/DSC58561.jpg",
         "height_mobile": "original",
         "text_position_mobile": "center",
         "text_alignment_mobile": "center",
@@ -67,7 +64,7 @@
         "animation_style": "none",
         "section_margin_top": 0,
         "section_margin_bottom": 0,
-        "text_color": "#242424",
+        "text_color": "#fff",
         "caption_bg_color": "rgba(0,0,0,0)",
         "image_overlay_color": "#ffffff",
         "image_overlay_opacity": 0
@@ -78,6 +75,7 @@
       "blocks": {
         "text_FYyYkh": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>FROM STABLE TO STUDIO</p>",
             "font_size_desktop": 34,
@@ -87,8 +85,9 @@
         },
         "heading_EcA8pK": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "title": "CASHMERE POLO KNIT CROP TOP",
+            "title": "LOTUS JACKET",
             "font_size_desktop": 55,
             "font_size_mobile": 30,
             "heading_bottom_spacing": 25
@@ -379,6 +378,7 @@
         "image_HFGPVj",
         "image_HXdCa7"
       ],
+      "disabled": true,
       "custom_css": [
         ".collage-builder__grid-item--inner {height: 74%;}",
         ".collage-builder__text-container {border-radius: 10px;}"
@@ -520,6 +520,7 @@
         "image_77TNfX",
         "image_WH8DHm"
       ],
+      "disabled": true,
       "custom_css": [
         ".collage-builder__grid-item--inner {height: 74%;}",
         ".collage-builder__text-container {border-radius: 10px;}"
@@ -549,9 +550,7 @@
     },
     "featured_collection_q8MQ9n": {
       "type": "featured-collection",
-      "custom_css": [
-        ".grid-view-item {border: 1px solid #f1f1f1;}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "The Equestrian Edit",
         "description": "<p>Styles that will take you from stable to studio.</p>",
@@ -564,7 +563,7 @@
         "products_to_show": 30,
         "grid-desktop": 4,
         "grid-mobile": "2",
-        "colors": "light"
+        "colors": "white"
       }
     },
     "image_with_text_overlay_z76NCT": {
