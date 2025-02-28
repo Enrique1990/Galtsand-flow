@@ -406,6 +406,24 @@
         "color_scheme": "white"
       }
     },
+    "featured_collection_tcrptx": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "New Collection",
+        "description": "<p>Training & Sport</p>",
+        "collection": "activewear",
+        "show_view_all": false,
+        "buttons_style": "filled",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "layout_style": "slider",
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
     "collage_builder3_PLYwYm": {
       "type": "collage-builder3",
       "blocks": {
@@ -546,24 +564,6 @@
         "height_6": "4",
         "block_alignment": "center",
         "color_scheme": "white"
-      }
-    },
-    "featured_collection_q8MQ9n": {
-      "type": "featured-collection",
-      "custom_css": [],
-      "settings": {
-        "title": "The Equestrian Edit",
-        "description": "<p>Styles that will take you from stable to studio.</p>",
-        "collection": "equestrian",
-        "show_view_all": true,
-        "buttons_style": "outlined",
-        "section_padding_top": 60,
-        "section_padding_bottom": 65,
-        "layout_style": "slider",
-        "products_to_show": 30,
-        "grid-desktop": 4,
-        "grid-mobile": "2",
-        "colors": "white"
       }
     },
     "image_with_text_overlay_z76NCT": {
@@ -932,6 +932,24 @@
         "image_overlay_opacity": 0
       }
     },
+    "featured_collection_q8MQ9n": {
+      "type": "featured-collection",
+      "custom_css": [],
+      "settings": {
+        "title": "The Equestrian Edit",
+        "description": "<p>Styles that will take you from stable to studio.</p>",
+        "collection": "equestrian",
+        "show_view_all": true,
+        "buttons_style": "outlined",
+        "section_padding_top": 60,
+        "section_padding_bottom": 65,
+        "layout_style": "slider",
+        "products_to_show": 30,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
     "collection_list_nFRUhJ": {
       "type": "collection-list",
       "blocks": {
@@ -1062,29 +1080,13 @@
         "section_padding_bottom": 0,
         "include_margins": true
       }
-    },
-    "featured_collection_tcrptx": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "New Collection",
-        "description": "<p>Training & Sport</p>",
-        "collection": "activewear",
-        "show_view_all": false,
-        "buttons_style": "filled",
-        "section_padding_top": 60,
-        "section_padding_bottom": 60,
-        "layout_style": "slider",
-        "products_to_show": 8,
-        "grid-desktop": 4,
-        "grid-mobile": "2",
-        "colors": "white"
-      }
     }
   },
   "order": [
     "image_with_text_overlay_aTKVBi",
     "image_with_text_overlay_qyaECH",
     "slideshow_h798NU",
+    "featured_collection_q8MQ9n",
     "scrolling_banner_UkVwEQ",
     "collage_builder3_micX6c",
     "featured_collection_tcrptx",
@@ -1094,7 +1096,6 @@
     "image_with_text_overlay_QEVYmT",
     "8e9e36da-191e-4c8c-ba3a-8a307b84bae9",
     "image_with_text_overlay_yWiiKN",
-    "featured_collection_q8MQ9n",
     "collection_list_nFRUhJ",
     "newsletter_Cj8kTa",
     "scrolling_banner_RUiHpz",
