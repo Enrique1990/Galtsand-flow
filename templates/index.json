@@ -1062,6 +1062,23 @@
         "section_padding_bottom": 0,
         "include_margins": true
       }
+    },
+    "featured_collection_tcrptx": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New Collection",
+        "description": "<p>Training & Sport</p>",
+        "collection": "activewear",
+        "show_view_all": false,
+        "buttons_style": "filled",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "layout_style": "slider",
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
     }
   },
   "order": [
@@ -1070,13 +1087,14 @@
     "slideshow_h798NU",
     "scrolling_banner_UkVwEQ",
     "collage_builder3_micX6c",
+    "featured_collection_tcrptx",
     "collage_builder3_PLYwYm",
-    "featured_collection_q8MQ9n",
     "image_with_text_overlay_z76NCT",
     "collage_DeRKrq",
     "image_with_text_overlay_QEVYmT",
     "8e9e36da-191e-4c8c-ba3a-8a307b84bae9",
     "image_with_text_overlay_yWiiKN",
+    "featured_collection_q8MQ9n",
     "collection_list_nFRUhJ",
     "newsletter_Cj8kTa",
     "scrolling_banner_RUiHpz",
