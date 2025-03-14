@@ -12,13 +12,13 @@
     "image_with_text_overlay_hqnMDF": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image_desktop": "shopify://shop_images/Tops_on_Top_-_Web_Version.jpg",
+        "image_desktop": "shopify://shop_images/2025_2_26_Spring-Spring_Edit-01.png",
         "height_desktop": "original",
         "text_position_desktop": "center",
         "text_alignment_desktop": "center",
         "enable_klaviyo_popup": false,
         "caption_width_desktop": 50,
-        "image_mobile": "shopify://shop_images/Tops_on_Top_-_Mobile_Version.jpg",
+        "image_mobile": "shopify://shop_images/2025_2_26_Spring-Spring_Edit-02.png",
         "height_mobile": "original",
         "text_position_mobile": "center",
         "text_alignment_mobile": "center",
@@ -49,28 +49,28 @@
         "heading_VVhkgh": {
           "type": "heading",
           "settings": {
-            "heading": "Our Top 5 Top Essentials You’ll Wear on Repeat",
+            "heading": "The Forecast? Bright and Bold—Spring’s Must-Have Colors",
             "heading--text-size": 40
           }
         },
         "richtext_Fqh8K3": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Let’s face it: your wardrobe starts with the perfect top. Whether it’s for a selfie-worthy brunch fit, that “effortlessly polished” class look, or your comfy-cute lounging fit, Galtsand has the range. We’re talking pieces that feel as good as they look—and look amazing in every single pic.</p>",
+            "text": "<p><strong>A Seasonal Refresh Starts with Color</strong></p>",
             "text_size": 20
           }
         },
         "richtext_EEpmjn": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Now, enter the <strong>Cashmere Knit Polo Crop Top</strong>—our latest drop and your next wardrobe MVP. But before we get into why this top is <em>everything</em>, let’s look at some all-time favorites that are about to hit your rotation.</p>",
+            "text": "<p><strong>Spring in Bloom: The Colors Defining the Season</strong></p><p>As the seasons shift, so do the shades we reach for. This spring, vibrant hues take center stage, offering a fresh perspective on everyday dressing. From warm, golden tones to cool, saturated blues, these colors are designed to complement the energy of the season—effortless, versatile, and undeniably bold.</p>",
             "text_size": 22
           }
         },
         "heading_NXc7qJ": {
           "type": "heading",
           "settings": {
-            "heading": "For the Galt Girlies:",
+            "heading": "Spring’s Stand Out Shades",
             "heading--text-size": 36
           }
         }
@@ -151,31 +151,6 @@
         "colors": "white"
       }
     },
-    "image_with_text_hYRieR": {
-      "type": "image-with-text",
-      "disabled": true,
-      "custom_css": [
-        "* {background-color: #670f28; color: white;}",
-        "li {font-size: 1.3rem;}",
-        "h2 {font-size: 2rem;}",
-        ".btn:hover {background-color: white !important; color: #670f28 !important;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Washed_Tee_Washed_Cream_M-1.jpg",
-        "title": "Step 3: Style Like a Pro",
-        "text": "<ul><li><strong>Monochrome Looks</strong>: Keep it clean with tonal outfits, like the <em>Pique Short in Darkest Navy</em> and <em>Standard Classic Polo in Dark Navy.</em></li><li><strong>Play with Texture</strong>: Pair smooth fabrics (like the <em>Washed Pocket Tee</em>) with textured ones (like the <em>Pique Pintuck Joggers</em>).</li><li><strong>Try the Sandwich Method</strong>: Match your top and shoes, using a contrasting bottom.</li></ul><p>Example: <em>Washed Pocket Tee in Cream</em> + <em>Pique Joggers in Dark Navy</em> + white sneakers.</p>",
-        "button_label": "Shop Now",
-        "button_link": "shopify://collections/mens-shop-all",
-        "buttons_style": "outlined",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "text_overlapping_image": false,
-        "section-width": "full",
-        "layout": "right",
-        "text_alignment": "left",
-        "colors": "accent"
-      }
-    },
     "image_with_text_6HCY3T": {
       "type": "image-with-text",
       "disabled": true,
@@ -254,11 +229,11 @@
         "text_font_size": 16,
         "text_position": "center",
         "block_text_alignment": "center",
-        "image": "shopify://shop_images/DSC_5361_1.jpg",
-        "title": "1. The Lotus Jacket",
-        "text": "<p>The jacket that takes you from yoga class to coffee dates without missing a beat. It’s soft, flattering, and just the right amount of sporty-chic. Pair it with leggings or throw it over a casual dress for instant cool.</p>",
-        "button_label": "Shop Now",
-        "button_link": "shopify://products/lotus-jacket",
+        "image": "shopify://shop_images/015A5379_b883f626-64c8-4a72-8709-73491bf73adf.jpg",
+        "title": "Refreshing Lemonade",
+        "text": "<p>A soft yet striking take on sunshine, Lemonade brings warmth and optimism to any outfit. Whether worn as an accent or a full statement look, it’s a shade that instantly brightens.</p>",
+        "button_label": "",
+        "button_link": "",
         "buttons_style": "outlined",
         "section_padding_top": 0,
         "section_padding_bottom": 0,
@@ -282,10 +257,10 @@
         "text_font_size": 16,
         "text_position": "center",
         "block_text_alignment": "center",
-        "image": "shopify://shop_images/Untit567led.jpg",
-        "title": "2. The Infinity Jacket",
-        "text": "<p>Your all-day, every-day layer. Sleek, lightweight, and perfect for layering, this jacket is made for those crisp morning walks, post-workout errands, or travel days when you need comfort <em>and</em> style.</p>",
-        "button_label": "Shop Now",
+        "image": "shopify://shop_images/LANTANA_1.jpg",
+        "title": "Lantana",
+        "text": "<p>Inspired by sun-drenched landscapes, Lantana is bold, rich, and confident. A perfect choice for adding depth to spring neutrals or standing out with a monochromatic moment.</p>",
+        "button_label": "",
         "button_link": "shopify://products/infinity-jacket",
         "buttons_style": "outlined",
         "section_padding_top": 0,
@@ -296,30 +271,88 @@
         "colors": "light"
       }
     },
-    "rich_text_Hzq8bD": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_qTQhaj": {
-          "type": "heading",
-          "settings": {
-            "heading": "For the Guys:",
-            "heading--text-size": 48
-          }
-        }
-      },
-      "block_order": [
-        "heading_qTQhaj"
-      ],
+    "image_text_tYigx7": {
+      "type": "image_text",
       "custom_css": [
-        "h2 {line-height: 1.2;}"
+        "h2 {font-size: 2.8rem; line-height: 1.2;}",
+        "p {font-size: 1.4rem;}"
       ],
       "settings": {
-        "section_width": "narrow",
-        "text_alignment_desktop": "center",
-        "text_alignment_mobile": "center",
-        "section_padding_top": 60,
-        "section_padding_bottom": 60,
-        "colors": "white"
+        "heading_text": "",
+        "paragraph_text": "",
+        "text_color": "#ffffff",
+        "heading_font_size": 24,
+        "text_font_size": 16,
+        "text_position": "center",
+        "block_text_alignment": "center",
+        "image": "shopify://shop_images/LAVENDER_2.jpg",
+        "title": "Lavender",
+        "text": "<p>A modern classic, Lavender offers a refined softness that balances cool and warm tones effortlessly. It pairs seamlessly with both neutrals and other pastels, making it a wardrobe essential.</p>",
+        "button_label": "",
+        "button_link": "",
+        "buttons_style": "filled",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "colors": "light"
+      }
+    },
+    "image_text_kNFLpr": {
+      "type": "image_text",
+      "custom_css": [
+        "h2 {font-size: 2.8rem; line-height: 1.2;}",
+        "p {font-size: 1.4rem;}"
+      ],
+      "settings": {
+        "heading_text": "",
+        "paragraph_text": "",
+        "text_color": "#ffffff",
+        "heading_font_size": 24,
+        "text_font_size": 16,
+        "text_position": "center",
+        "block_text_alignment": "center",
+        "image": "shopify://shop_images/015A4220_5acb4e0f-710f-4242-8afc-004bc7fd537f.jpg",
+        "title": "Mazarine Blue",
+        "text": "<p>Deep, saturated, and timeless—Mazarine Blue channels the richness of spring skies and ocean depths. It’s a grounding color that pairs well with light and dark tones alike.</p>",
+        "button_label": "",
+        "button_link": "",
+        "buttons_style": "filled",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "right",
+        "colors": "light"
+      }
+    },
+    "image_text_Cd9G9E": {
+      "type": "image_text",
+      "custom_css": [
+        "h2 {font-size: 2.8rem; line-height: 1.2;}",
+        "p {font-size: 1.4rem;}"
+      ],
+      "settings": {
+        "heading_text": "",
+        "paragraph_text": "",
+        "text_color": "#ffffff",
+        "heading_font_size": 24,
+        "text_font_size": 16,
+        "text_position": "center",
+        "block_text_alignment": "center",
+        "image": "shopify://shop_images/PLUM_33.jpg",
+        "title": "Plum",
+        "text": "<p>A sophisticated take on bold color, Plum offers a depth that’s both striking and wearable. It’s an unexpected yet versatile hue that transitions seamlessly from day to night.</p>",
+        "button_label": "Shop Now",
+        "button_link": "shopify://products/heritage-tee",
+        "buttons_style": "outlined",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "colors": "light"
       }
     },
     "parallax_with_text_centered_HYzpz3": {
@@ -342,36 +375,52 @@
         "content_3": "One color, head to toe, makes you look like you’ve got your life together—even if you overslept. The French Terry Tee and Pique Pintuck Jogger  create a sleek, streamlined silhouette that’s simple, modern, and just the right amount of bold.\nStyle Advice: Add neutral sneakers to keep the vibe minimalist, or throw in a statement piece like a chunky chain or backpack."
       }
     },
-    "image_text_Cd9G9E": {
-      "type": "image_text",
+    "rich_text_Hzq8bD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qTQhaj": {
+          "type": "heading",
+          "settings": {
+            "heading": "How to Wear Them",
+            "heading--text-size": 48
+          }
+        },
+        "richtext_TkE3TX": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>These shades are designed for effortless styling—whether you embrace a single statement color or mix and match for a dynamic contrast. </p><p>Spring is a season of renewal—let your wardrobe reflect that.</p>",
+            "text_size": 18
+          }
+        },
+        "button_UgqjjT": {
+          "type": "button",
+          "settings": {
+            "button_link": "shopify://collections/yoga",
+            "button_text": "discover collection",
+            "buttons_style": "filled"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qTQhaj",
+        "richtext_TkE3TX",
+        "button_UgqjjT"
+      ],
       "custom_css": [
-        "h2 {font-size: 2.8rem; line-height: 1.2;}",
-        "p {font-size: 1.4rem;}"
+        "h2 {line-height: 1.2;}"
       ],
       "settings": {
-        "heading_text": "",
-        "paragraph_text": "",
-        "text_color": "#ffffff",
-        "heading_font_size": 24,
-        "text_font_size": 16,
-        "text_position": "center",
-        "block_text_alignment": "center",
-        "image": "shopify://shop_images/Galtsand-Heritage-Tee-Men-Fashion-IG-11.jpg",
-        "title": "1. The Heritage Tee",
-        "text": "<p>Not just a t-shirt—<em>the</em> t-shirt. It’s clean, sharp, and perfect for literally every occasion. Pair it with jeans or joggers, and you’re good to go.</p>",
-        "button_label": "Shop Now",
-        "button_link": "shopify://products/heritage-tee",
-        "buttons_style": "outlined",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "text_overlapping_image": false,
-        "section-width": "full",
-        "layout": "left",
-        "colors": "light"
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
       }
     },
     "image_text_336w4U": {
       "type": "image_text",
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 2.8rem; line-height: 1.2;}",
         "p {font-size: 1.4rem;}"
@@ -428,6 +477,7 @@
         "richtext_MTzF73",
         "richtext_z37mET"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {line-height: 1.2;}",
         "@media screen and (max-width: 768px) {h2 {font-size: 16px; }}"
@@ -443,6 +493,7 @@
     },
     "image_text_wwangD": {
       "type": "image_text",
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 2.8rem; line-height: 1.2;}",
         "p,li {font-size: 1.4rem;}",
@@ -484,6 +535,7 @@
       "block_order": [
         "heading_wQGnPf"
       ],
+      "disabled": true,
       "custom_css": [
         "* {line-height: 1.2;}",
         "@media (max-width: 768px) {h2 {font-size: 28px; }}"
@@ -496,64 +548,6 @@
         "section_padding_bottom": 60,
         "colors": "white"
       }
-    },
-    "image_text_tYigx7": {
-      "type": "image_text",
-      "disabled": true,
-      "custom_css": [
-        "h2 {font-size: 2.8rem; line-height: 1.2;}",
-        "p {font-size: 1.4rem;}"
-      ],
-      "settings": {
-        "heading_text": "",
-        "paragraph_text": "",
-        "text_color": "#ffffff",
-        "heading_font_size": 24,
-        "text_font_size": 16,
-        "text_position": "center",
-        "block_text_alignment": "center",
-        "image": "shopify://shop_images/Galtsand-Trainer-Tee-Active-Men-Fashion--3.jpg",
-        "title": "Sydney Harbour, Australia 🇦🇺",
-        "text": "<p><strong>Seaside Chic:</strong> From morning sails to waterfront dining, the <a href=\"/products/trainer-tee\" title=\"Trainer Tee\"><strong>Trainer Tee</strong></a> and <a href=\"/products/pique-short-with-pintuck\" title=\"Pique Short with Pintuck\"><strong>Pique Pintuck Short</strong></a> transition seamlessly, offering laid-back elegance with functional flair.</p>",
-        "button_label": "",
-        "button_link": "",
-        "buttons_style": "filled",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "text_overlapping_image": false,
-        "section-width": "full",
-        "layout": "right",
-        "colors": "light"
-      }
-    },
-    "image_text_kNFLpr": {
-      "type": "image_text",
-      "disabled": true,
-      "custom_css": [
-        "h2 {font-size: 2.8rem; line-height: 1.2;}",
-        "p {font-size: 1.4rem;}"
-      ],
-      "settings": {
-        "heading_text": "",
-        "paragraph_text": "",
-        "text_color": "#ffffff",
-        "heading_font_size": 24,
-        "text_font_size": 16,
-        "text_position": "center",
-        "block_text_alignment": "center",
-        "image": "shopify://shop_images/Washed_Tee_Faded_Navy_M-1.jpg",
-        "title": "Kyoto, Japan",
-        "text": "<p><strong>Modern Tradition:</strong> Discover Kyoto’s bamboo forests and serene shrines in the <a href=\"/products/pique-short-sleeve\" title=\"Pique Short Sleeve\"><strong>Pique Short Sleeve</strong></a> and <a href=\"/products/classic-short\" title=\"Classic Short\"><strong>Classic Short</strong></a>—a pairing that blends contemporary minimalism with timeless elegance.</p>",
-        "button_label": "",
-        "button_link": "",
-        "buttons_style": "filled",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "text_overlapping_image": false,
-        "section-width": "full",
-        "layout": "left",
-        "colors": "light"
-      }
     }
   },
   "order": [
@@ -562,20 +556,19 @@
     "rich_text_hMcKzL",
     "image_with_text_KebcQG",
     "rich_text_cC6Eaw",
-    "image_with_text_hYRieR",
     "image_with_text_6HCY3T",
     "image_with_text_C37wji",
     "parallax_with_text_centered_e4t3yr",
     "image_text_4QefzP",
     "image_text_WNCjhm",
-    "rich_text_Hzq8bD",
-    "parallax_with_text_centered_HYzpz3",
+    "image_text_tYigx7",
+    "image_text_kNFLpr",
     "image_text_Cd9G9E",
+    "parallax_with_text_centered_HYzpz3",
+    "rich_text_Hzq8bD",
     "image_text_336w4U",
     "rich_text_CGq7QF",
     "image_text_wwangD",
-    "rich_text_mq9jLJ",
-    "image_text_tYigx7",
-    "image_text_kNFLpr"
+    "rich_text_mq9jLJ"
   ]
 }
